@@ -3,6 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', '3.0.0'
 gem 'haml'
 gem 'json'
+gem 'mysql'
 
 group :test do
   gem 'cucumber-rails'
