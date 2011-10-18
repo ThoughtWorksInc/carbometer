@@ -1,5 +1,0 @@
-if [[ -s "/Users/rob/.rvm/environments/ruby-1.9.2-p0@carbometer" ]] ; then
-  . "/Users/rob/.rvm/environments/ruby-1.9.2-p0@carbometer"
-else
-  rvm --create  "ruby-1.9.2-p0@carbometer"
-fi
