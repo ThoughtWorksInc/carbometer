@@ -1,7 +1,17 @@
 CarboMeter
+==========
 
-Installation
-------------
+TeamCity:
+    http://teamcity.carbonfive.com/project.html?projectId=project29&tab=projectOverview
+
+Tracker project: 
+    https://www.pivotaltracker.com/projects/202009
+
+Heroku site:
+    
+
+Install Dev Environment
+-----------------------
 - Have RVM installed
 - git clone git@github.com:carbonfive/carbometer.git
 - cd carbometer # RVM should create 'carbometer' gemset
