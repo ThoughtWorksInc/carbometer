@@ -1,4 +1,5 @@
 Carbometer::Application.routes.draw do
+  root :to => 'dashboards#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
