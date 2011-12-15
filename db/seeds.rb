@@ -10,8 +10,8 @@ USERS = {
   'Christian' => { 'christiannelson' => 156139 },
   'Jonah' => { 'jonah-carbonfive' => 86003 },
   'Mike' => { 'mwynholds' => 168133 },
-  'Sean' => { 'nfiniteset' => 178653 },
-  'Rudy' => { 'rudyjahchan' => 107783 }
+  'Rudy' => { 'rudyjahchan' => 107783 },
+  'Sean' => { 'nfiniteset' => 178653 }
 }
 
 USERS.each do |name, creds|
@@ -20,5 +20,6 @@ USERS.each do |name, creds|
   user = User.create_from_hash!( { 'user_info' => { 'name' => name } } )
   Authentication.create_from_hash( { 'type' => 'User', 'provider' => 'github',
                                      'url' => "https://api.github.com/users/#{github_user}",
-                                     'uid' => github_uid } )
+                                     'uid' => github_uid }
+                                   user )
 end
