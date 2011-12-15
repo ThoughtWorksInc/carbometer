@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+user = User.create_from_hash!({'user_info' => {'name' => "Jonah"}})
+auth = Authentication.create_from_hash({'type'=>"User", 'url'=>"https://api.github.com/users/jonah-carbonfive", 'provider'=>"github", 'uid'=>86003}, user)
