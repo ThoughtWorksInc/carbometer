@@ -10,3 +10,6 @@ auth_jonah = Authentication.create_from_hash({'type'=>"User", 'url'=>"https://ap
 
 user_sean = User.create_from_hash!({'user_info' => {'name' => "Sean"}})
 auth_sean = Authentication.create_from_hash({'type'=>"User", 'url'=>"https://api.github.com/users/nfiniteset", 'provider'=>"github", 'uid'=>178653}, user_sean)
+
+user_christian = User.create_from_hash!({'user_info' => {'name' => "Christian"}})
+auth_christian = Authentication.create_from_hash({'type'=>"User", 'url'=>"https://api.github.com/users/christiannelson", 'provider'=>"github", 'uid'=>156139}, user_christian)
