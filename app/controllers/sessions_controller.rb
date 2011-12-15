@@ -4,14 +4,12 @@ class SessionsController < ApplicationController
   
   def create
     auth = request.env['omniauth.auth']
-    unless @auth = Authentication.find_from_hash(auth)
-      # Create a new user or add an auth to existing user, depending on
-      # whether there is already a user signed in.
-      # @auth = Authentication.create_from_hash(auth, current_user)
+    if @auth = Authentication.find_from_hash(auth)
+      # Log the authorizing user in.
+      self.current_user = @auth.user
+      render :text => "Welcome, #{current_user.name}."
+    else
+      render :text => "Not authorized"
     end
-    # Log the authorizing user in.
-    self.current_user = @auth.user
-
-    render :text => "Welcome, #{current_user.name}."
   end
 end
