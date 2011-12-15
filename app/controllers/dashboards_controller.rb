@@ -27,10 +27,10 @@ class DashboardsController < ApplicationController
       rit: { name: 'Rit L.', email: 'rit@carbonfive.com' },
       rob: { name: 'Rob P.', email: 'rob@carbonfive.com' },
       rudy: { name: 'Rudy J', email: 'rudy@carbonfive.com' },
-      :sean => { :name => "Sean D.", :email => "sean@sdurham.net" },
+      sean: { name: 'Sean D.', email: 'sean@sdurham.net' },
       steven_h: { name: 'Steven H.', email: 'steven@carbonfive.com' },
       suzanna: { name: 'Suzanna S.', email: 'suzanna@carbonfive.com' },
-      :winston => { name: "Winston W.", email: "winston@carbonfive.com" }
+      winston: { name: 'Winston W.', email: 'winston@carbonfive.com' }
     }
     puts @people
 
@@ -45,29 +45,26 @@ class DashboardsController < ApplicationController
         :team => team_members([:ingar, :jim, :christian, :elias, :sean])
       },
       {
+          :name => "Booty Log",
+          :team => team_members([:august, :jonah, :rudy, :rit, :erik])
+      },
+      {
+          :name => "C5 Website",
+          :team => team_members([:kasha,])
+      },
+      {
         :name => "Consulting MD",
         :team => team_members([:david, :suzanna, :courtney, :mike_p, :steven_h])
       },
       {
         :name => "JobYou",
-        :team => team_members([:jon_c])
+        :team => team_members([:alex, :jon_c, :james])
       },
-      {
-        :name => "Booty Log",
-        :team => team_members([:august, :jonah, :rudy, :rit, :erik])
-      },
+
       {
         :name => "Pocket Gems",
         :image => "PocketGems.png",
         :team => team_members([:clark, :winston])
-      },
-      {
-        :name => "C5 Website",
-        :team => team_members([:kasha,])
-      },
-      {
-        :name => "Timesheet",
-        :team => team_members([:james,])
       }
     ]
 
