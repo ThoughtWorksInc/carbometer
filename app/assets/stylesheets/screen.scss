@@ -1,0 +1,44 @@
+$unit: 20px;
+$half-unit: 10px;
+$quarter-unit: 5px;
+
+$c5-orange: #DF800F;
+$light-color: #fff;
+
+body {
+  font-family: "Helvetica";
+}
+
+.projects {
+  border-spacing: 0;
+}
+
+.project{
+  padding: $unit;
+  width: 300px;
+  margin: 0;
+  border: solid 1px #ccc;
+  border-bottom: none;
+  background-color: #ddd;
+
+  font-size: 200%;
+}
+
+.team {
+  list-style: none;
+  margin: 0;
+}
+
+.team-member {
+  float: left;
+  padding: $half-unit;
+  margin-right: $unit;
+  font-size: 150%;
+  width: 150px;
+
+  background-color: $c5-orange;
+  border-radius: 15px;
+  color: $light-color;
+
+  text-align: center;
+}

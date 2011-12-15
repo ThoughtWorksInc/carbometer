@@ -1,2 +1,18 @@
 <h1>Carbometer</h1>
 
+<table class="projects">
+  <tbody>
+    <% @projects.each do |p| %>
+    <tr>
+      <td class="project"><%= p[:name] %></td>
+      <td class="team">
+        <ul class="team">
+        <% p[:team].each do |m| %>
+          <li class="team-member"><%= m %></li>
+        <% end %>
+        </ul>
+      </td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
