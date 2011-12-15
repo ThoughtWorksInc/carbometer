@@ -2,6 +2,8 @@ class DashboardsController < ApplicationController
   # GET /dashboards
   # GET /dashboards.json
   def index
+    authorize!(params[:action], DashboardsController)
+    
     @people = {
       alex: { name: 'Alex C.', email: 'alex@carbonfive.com' },
       august: { name: 'August J.', email: 'august@carbonfive.com' },

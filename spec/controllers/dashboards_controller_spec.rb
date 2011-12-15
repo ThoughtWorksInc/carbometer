@@ -28,8 +28,10 @@ describe DashboardsController do
   end
 
   describe "GET index" do
-    it "shows index" do
-      get :index
+    context "when not authenticated" do
+      it "redirects" do
+        response.should be_redirect
+      end
     end
   end
 
