@@ -9,29 +9,49 @@ body {
   margin: 0;
   padding: 0;
 
+  background-color: #fdfdfd;
+
   font-family: "Helvetica";
 }
 
 body > header {
+  position: absolute;
+  top: 0;
+
   width: 100%;
   margin: 0;
-  padding-left: $unit;
-  height: 100px;
+  padding: 0 $unit;
+  height: 40px;
 
   background-color: #333;
   color: $light-color;
 
+  line-height: 40px;
+
   h1 {
     margin: 0;
+    float: left;
+  }
+  
+  p {
+    float: right;
+    margin: 0 $unit*2 0 0;
+    font-size: 16px;
+    padding: 0;
+
+    line-height: 40px;
+
+    a {
+      color: white;
+    }
   }
 }
 
 .projects {
   position: absolute;
-  top: 100;
+  top: 40px;
+  bottom: 20px;
   border-spacing: 0;
-
-
 }
 
 .project{
@@ -57,7 +77,7 @@ body > header {
 }
 
 .project:hover {
-  background-color: darken($c5-orange, 20%);
+  background-color: $c5-orange;
   color: $light-color;
 }
 
@@ -88,5 +108,8 @@ body > header {
 body > footer {
   position: abolute;
   bottom: 0;
+  height: 20px;
   width: 100%;
+
+  background-color: #333;
 }
