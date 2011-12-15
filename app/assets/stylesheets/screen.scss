@@ -6,15 +6,36 @@ $c5-orange: #DF800F;
 $light-color: #fff;
 
 body {
+  margin: 0;
+  padding: 0;
+
   font-family: "Helvetica";
 }
 
+body > header {
+  width: 100%;
+  margin: 0;
+  padding-left: $unit;
+  height: 100px;
+
+  background-color: #333;
+  color: $light-color;
+
+  h1 {
+    margin: 0;
+  }
+}
+
 .projects {
+  position: absolute;
+  top: 100;
   border-spacing: 0;
+
+
 }
 
 .project{
-  padding: $unit;
+  padding: 0 $unit;
   width: 300px;
   margin: 0;
 
@@ -42,6 +63,12 @@ body {
 
 .project:hover .project_image {
   display: block;
+  border-radius: 10px;
+}
+
+.team-member img {
+  border-radius: 50px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.8);
 }
 
 .team {
@@ -51,10 +78,15 @@ body {
 
 .team-member {
   float: left;
-  padding: $half-unit;
-  margin-right: $unit;
-  font-size: 150%;
-  width: 100px;
+  width: 120px;
+  padding-top: $half-unit;
 
+  font-size: 150%;
   text-align: center;
+}
+
+body > footer {
+  position: abolute;
+  bottom: 0;
+  width: 100%;
 }

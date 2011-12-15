@@ -1,4 +1,6 @@
-<h1>Carbometer</h1>
+<header>
+  <h1>Carbometer</h1>
+</header>
 
 <table class="projects">
   <tbody>
@@ -15,7 +17,7 @@
       <td class="team">
         <ul class="team">
         <% p[:team].each do |m| %>
-          <li class="team-member"><%= image_tag gravatar m[:email] %><%= m[:name] %></li>
+          <li class="team-member"><%= image_tag gravatar m[:email] %><p><%= m[:name] %></p></li>
         <% end %>
         </ul>
       </td>
@@ -24,6 +26,6 @@
   </tbody>
 </table>
 
-<div>
+<footer>
   <p><a href="https://github.com/carbonfive/carbometer">Improve Carbometer.</a> Clone it at git@github.com:carbonfive/carbometer.git</p>
-</div>
+</footer>
