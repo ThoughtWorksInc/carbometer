@@ -17,11 +17,31 @@ body {
   padding: $unit;
   width: 300px;
   margin: 0;
+
   border: solid 1px #ccc;
   border-bottom: none;
   background-color: #ddd;
+  cursor: pointer;
 
   font-size: 200%;
+}
+
+.project_image {
+  position: absolute;
+  left: 400px;
+  top: 50px;
+  display: none;
+
+  box-shadow: 2px 15px 25px rgba(0,0,0,.7);
+}
+
+.project:hover {
+  background-color: darken($c5-orange, 20%);
+  color: $light-color;
+}
+
+.project:hover .project_image {
+  display: block;
 }
 
 .team {
@@ -34,11 +54,7 @@ body {
   padding: $half-unit;
   margin-right: $unit;
   font-size: 150%;
-  width: 150px;
-
-  background-color: $c5-orange;
-  border-radius: 15px;
-  color: $light-color;
+  width: 100px;
 
   text-align: center;
 }

@@ -4,11 +4,18 @@
   <tbody>
     <% @projects.each do |p| %>
     <tr>
-      <td class="project"><%= p[:name] %></td>
+      <td class="project">
+        <%= p[:name] %>
+        <% if p[:image] %>
+        <div class="project_image">
+          <%= image_tag p[:image] %>
+        </div>
+        <% end %>
+      </td>
       <td class="team">
         <ul class="team">
         <% p[:team].each do |m| %>
-          <li class="team-member"><%= m %></li>
+          <li class="team-member"><%= image_tag gravatar m[:email] %><%= m[:name] %></li>
         <% end %>
         </ul>
       </td>
@@ -16,3 +23,7 @@
     <% end %>
   </tbody>
 </table>
+
+<div>
+  <p><a href="https://github.com/carbonfive/carbometer">Improve Carbometer.</a> Clone it at git@github.com:carbonfive/carbometer.git</p>
+</div>
