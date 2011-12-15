@@ -1,4 +1,6 @@
 class AuthenticationsController < ApplicationController
+  skip_authorization_check
+
   # GET /authentications
   # GET /authentications.json
   def index

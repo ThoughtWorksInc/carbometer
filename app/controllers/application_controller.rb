@@ -1,5 +1,10 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
+  check_authorization
+  
+  rescue_from CanCan::AccessDenied do |exception|
+    redirect_to authentications_path, :alert => exception.message
+  end
   
   protected
     def current_user
@@ -15,5 +20,5 @@ class ApplicationController < ActionController::Base
     def current_user=(user)
       @current_user = user
       session[:user_id] = user.id
-    end
+    end    
 end
