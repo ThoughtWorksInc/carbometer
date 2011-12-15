@@ -33,6 +33,7 @@ gem 'jquery-rails'
 
 group :test do
   gem 'test-unit'
+  gem 'therubyracer'
   # Pretty printed test output
   gem 'turn', :require => false
 end
