@@ -10,7 +10,8 @@ Tracker project:
     https://www.pivotaltracker.com/projects/202009
 
 Heroku site:
-    (ask Jonah)
+    http://carbometer.herokuapp.com
+    Owned by the Carbon Five account.
 
 Contributors
 ------------
@@ -29,5 +30,17 @@ Install Dev Environment
 * gem install bundler
 * bundle install
 
+Running locally
+---------------
+CarboMeter uses oauth to authenticate github users. In order to run the app locally you need to authenticate with a registered oauth app which redirects to `localhost` rather than `carbometer.herokuapp.com`.
 
+Project contributors have apps registered with github which you can use or you can setup your own:
 
+1. Go to https://github.com/account/applications
+2. Register a new application
+3. Set the application's URL to `http://localhost:3000`
+4. Set the application's callback URL to `http://localhost:3000/auth/github/callback`
+5. Submit the form.
+
+Now you can run CarboMeter locally:
+`GITHUB_KEY={the github Client ID for your app} GITHUB_SECRET={the github Secret for your app} rails s`
