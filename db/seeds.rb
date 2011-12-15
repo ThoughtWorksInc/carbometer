@@ -5,11 +5,19 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-user_jonah = User.create_from_hash!({'user_info' => {'name' => "Jonah"}})
-auth_jonah = Authentication.create_from_hash({'type'=>"User", 'url'=>"https://api.github.com/users/jonah-carbonfive", 'provider'=>"github", 'uid'=>86003}, user_jonah)
+#
+USERS = {
+  'Christian' => { 'christiannelson' => 156139 },
+  'Jonah' => { 'jonah-carbonfive' => 86003 },
+  'Mike' => { 'mwynholds' => 168133 },
+  'Sean' => { 'nfiniteset' => 178653 }
+}
 
-user_sean = User.create_from_hash!({'user_info' => {'name' => "Sean"}})
-auth_sean = Authentication.create_from_hash({'type'=>"User", 'url'=>"https://api.github.com/users/nfiniteset", 'provider'=>"github", 'uid'=>178653}, user_sean)
-
-user_christian = User.create_from_hash!({'user_info' => {'name' => "Christian"}})
-auth_christian = Authentication.create_from_hash({'type'=>"User", 'url'=>"https://api.github.com/users/christiannelson", 'provider'=>"github", 'uid'=>156139}, user_christian)
+USERS.each do |name, creds|
+  github_user = creds.first[0]
+  github_uid = creds.first[1]
+  user = User.create_from_hash!( { 'user_info' => { 'name' => name } } )
+  Authentication.create_from_hash( { 'type' => 'User', 'provider' => 'github',
+                                     'url' => "https://api.github.com/users/#{github_user}",
+                                     'uid' => github_uid } )
+end
