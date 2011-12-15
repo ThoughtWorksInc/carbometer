@@ -9,7 +9,7 @@ class SessionsController < ApplicationController
       self.current_user = @auth.user
       render :text => "Welcome, #{current_user.name}."
     else
-      render :text => "Not authorized: auth"
+      render :text => "Not authorized: #{auth}"
     end
   end
 end
