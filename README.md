@@ -50,3 +50,15 @@ Displaying Data
 View templates can be rendered using http://slim-lang.com/docs.html
 
 For now carbometer renders a single static page so add your content to views/dashboards/index.
+
+User Authentication
+-------------------
+Users authenticate via GitHub oauth so that we should be able to confirm their membership in the CarbonFive organization or otherwise identify which projects should be visible to them.
+
+We probably want every user who appears on carbometer to sign in at least once to authorize the app to access their github profile so that we can act on their behalf to collect data on their commits.
+
+In order to support additional data sets we may want users to associate additional accounts with their User model; timesheet, twitter, pivotal tracker, teamcity, and so on.
+
+Gathering Data
+--------------
+Many of the proposed data sets we want carbometer to display require periodic fetching of data from external sources. Consider using a Resque worker managed by Heroku's http://devcenter.heroku.com/articles/procfile to perform periodic updates of whatever datasets we cannot manage client side.
