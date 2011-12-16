@@ -15,8 +15,7 @@ body {
 }
 
 body > header {
-  position: absolute;
-  top: 0;
+  float:left;
 
   width: 100%;
   margin: 0;
@@ -48,9 +47,7 @@ body > header {
 }
 
 .projects {
-  position: absolute;
-  top: 40px;
-  bottom: 20px;
+  float:left;
   border-spacing: 0;
 }
 
@@ -103,6 +100,11 @@ body > header {
 
   font-size: 150%;
   text-align: center;
+}
+
+.twitter {
+  float:left;
+  width:100%;
 }
 
 body > footer {
