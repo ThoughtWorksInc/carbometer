@@ -44,3 +44,9 @@ Project contributors have apps registered with github which you can use or you c
 
 Now you can run CarboMeter locally:
 `GITHUB_KEY={the github Client ID for your app} GITHUB_SECRET={the github Secret for your app} rails s`
+
+Displaying Data
+---------------
+View templates can be rendered using http://slim-lang.com/docs.html
+
+For now carbometer renders a single static page so add your content to views/dashboards/index.
