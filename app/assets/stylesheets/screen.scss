@@ -53,8 +53,9 @@ body > header {
 }
 
 .project{
-  padding: 0 $unit;
-  width: 300px;
+  padding: 0 0 0 $unit;
+  width: 350px;
+  height: 140px;
   margin: 0;
 
   border: solid 1px #ccc;
@@ -62,7 +63,9 @@ body > header {
   background-color: #ddd;
   cursor: pointer;
 
-  font-size: 200%;
+  font-size: 300%;
+  font-weight: bold;
+  line-height: 140px;
 }
 
 .project_image {
