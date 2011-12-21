@@ -1,9 +1,7 @@
 class DashboardsController < ApplicationController
-  # GET /dashboards
-  # GET /dashboards.json
   def index
     authorize!(params[:action], DashboardsController)
-    
+
     @people = {
       alex: { name: 'Alex C.', email: 'alex@carbonfive.com' },
       august: { name: 'August J.', email: 'august@carbonfive.com' },
@@ -32,11 +30,6 @@ class DashboardsController < ApplicationController
       suzanna: { name: 'Suzanna S.', email: 'suzanna@carbonfive.com' },
       winston: { name: 'Winston W.', email: 'winston@carbonfive.com' }
     }
-    puts @people
-
-    def team_members(members)
-      members.map { |m| @people[m] }
-    end
 
     @projects = [
       {
@@ -50,17 +43,16 @@ class DashboardsController < ApplicationController
       },
       {
           :name => "C5 Website",
-          :team => team_members([:kasha,])
+          :team => team_members([:kasha, :david])
       },
       {
         :name => "Consulting MD",
-        :team => team_members([:david, :suzanna, :courtney, :mike_p, :steven_h])
+        :team => team_members([:courtney, :mike_p, :steven_h])
       },
       {
         :name => "JobYou",
         :team => team_members([:alex, :jon_c, :james])
       },
-
       {
         :name => "Pocket Gems",
         :image => "PocketGems.png",
@@ -68,5 +60,11 @@ class DashboardsController < ApplicationController
       }
     ]
 
+  end
+
+  private
+
+  def team_members(members)
+    members.map { |m| @people[m] }
   end
 end
