@@ -11,7 +11,8 @@ USERS = {
   'Jonah' => { 'jonah-carbonfive' => 86003 },
   'Mike' => { 'mwynholds' => 168133 },
   'Rudy' => { 'rudyjahchan' => 107783 },
-  'Sean' => { 'nfiniteset' => 178653 }
+  'Sean' => { 'nfiniteset' => 178653 },
+  'Mike' => { 'mperham' => 2911 }
 }
 
 USERS.each do |name, creds|
