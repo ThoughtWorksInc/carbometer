@@ -15,6 +15,7 @@ end
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'jasmine-headless-webkit'
 end
 
 group :test do
