@@ -1,21 +1,16 @@
-development:
-  adapter: sqlite3
-  encoding: unicode
-  database: db/development.sqlite3
-  pool: 5
-  timeout: 5000
-
-test:
-  adapter: sqlite3
-  encoding: unicode
-  database: db/test.sqlite3
-  pool: 5
-  timeout: 5000
-
-production:
+defaults: &defaults
   adapter: postgresql
   encoding: unicode
-  database: carbometer
   pool: 5
+  host: localhost
   username: postgres
   password:
+  min_messages: warning
+
+development:
+  <<: *defaults
+  database: carbometer_development
+
+test:
+  <<: *defaults
+  database: carbometer_test

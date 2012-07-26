@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Carbometer::Application.config.secret_token = 'c55765186f9de61ab2533e278b55e52251c5f161b969509cea7a2a56ef847bf3f5835030c7f5f27286fda2ed7c7b9e4b5da02d7bad96eeb68f9a98f1ce1ea314'
+Carbometer::Application.config.secret_token = '9a7d596ca7b2e970ed590f90c6340701ba2ecae7b201cfb745753dd9b58ab260297254cbb9afac6d3544a2f640dc56b7185d32fc08d9786148214cfb145e8790'
