@@ -1,6 +1,5 @@
 class Carbometer.Router.Dashboard extends Backbone.Router
   routes:
-    'dashboard': 'showDashboard'
+    'dashboard': 'show'
 
-  showDashboard: ->
-    console.log 'showing dashboard'
+  show: ->
