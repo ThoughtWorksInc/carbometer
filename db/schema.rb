@@ -14,8 +14,8 @@
 ActiveRecord::Schema.define(:version => 20120809175022) do
 
   create_table "posts", :force => true do |t|
-    t.string "title", :null => false
-    t.string "path",  :null => false
+    t.string "title",                 :null => false
+    t.string "path",  :limit => 1024, :null => false
   end
 
   add_index "posts", ["path"], :name => "index_posts_on_path"

@@ -32,14 +32,18 @@ describe PostService do
       source_two = source_one.clone
       source_two.source = 'two'
       post_analytics = [source_one, source_two]
-      PostService.import_posts post_analytics
 
+      @imported_statistics_count = PostService.import_post_statistics post_analytics
       @imported_posts = Post.find_all_by_title 'title'
     end
 
     it 'associates multiple sources to single post' do
       expect(@imported_posts.length).to equal(1)
       expect(@imported_posts.first.statistics.length).to equal(2)
+    end
+
+    it 'returns the number of statistics imported' do
+      expect(@imported_statistics_count).to equal(2)
     end
   end
 end

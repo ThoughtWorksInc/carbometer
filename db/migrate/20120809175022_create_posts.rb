@@ -2,7 +2,7 @@ class CreatePosts < ActiveRecord::Migration
   def change
     create_table :posts do |table|
       table.string :title, null: false
-      table.string :path, null: false
+      table.string :path, null: false, limit: 1024
     end
 
     add_index :posts, :title

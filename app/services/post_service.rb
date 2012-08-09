@@ -3,10 +3,10 @@ class PostService
   def self.reset_posts
     Post.delete_all
     post_analytics = PostAnalytics.find_all
-    import_posts post_analytics
+    import_post_statistics post_analytics
   end
 
-  def self.import_posts(all_post_analytics)
+  def self.import_post_statistics(all_post_analytics)
     all_post_analytics.each do |post_analytics|
       title = post_analytics.page_title
       path =  post_analytics.page_path
@@ -19,6 +19,8 @@ class PostService
         visit_count: post_analytics.visits
       })
     end
+
+    all_post_analytics.length
   end
 
 end
