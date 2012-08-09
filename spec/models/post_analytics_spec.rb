@@ -38,6 +38,7 @@ describe PostAnalytics do
         expect(data.page_title).to_not be_blank
         expect(data.page_path).to_not be_blank
         expect(data.visits).to_not be_blank
+        expect(data.source).to_not be_blank
       end
     end
   end

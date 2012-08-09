@@ -3,7 +3,8 @@ class PostAnalytics
 
   attr_accessor :page_title,
                 :page_path,
-                :visits
+                :visits,
+                :source
 
   def page_title
     @page_title.split(TITLE_DELIMITER).first
@@ -38,7 +39,7 @@ class PostAnalytics
     service = client.discovered_api('analytics','v3')
     start_date = start_date.strftime("%Y-%m-%d")
     end_date = end_date.strftime("%Y-%m-%d")
-    dimensions = 'ga:pageTitle,ga:pagePath'
+    dimensions = 'ga:pageTitle,ga:pagePath,ga:source'
     metrics = 'ga:visits'
     sort = '-ga:visits'
 
@@ -50,7 +51,7 @@ class PostAnalytics
                                   'dimensions' => dimensions,
                                   'metrics' => metrics,
                                   'sort' => sort,
-                                  'max-results' => 10
+                                  'max-results' => 1000
                                 })
     response.data
   end
