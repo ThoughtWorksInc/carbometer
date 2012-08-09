@@ -4,7 +4,14 @@ class PostAnalytics
   attr_accessor :page_title,
                 :page_path,
                 :visits,
-                :source
+                :source,
+                :start_date,
+                :end_date
+
+  def initialize(params = {})
+    self.start_date = params[:start_date]
+    self.end_date = params[:end_date]
+  end
 
   def page_title
     @page_title.split(TITLE_DELIMITER).first
@@ -23,7 +30,8 @@ class PostAnalytics
     results = []
 
     data.rows.each_with_index do |row, index|
-      post_analytics = new
+      post_analytics = new start_date: start_date,
+                           end_date: end_date
       results << post_analytics
       headers.each_with_index do |header, header_index|
         property_name = headers[header_index].split(':').last.underscore
