@@ -17,11 +17,10 @@ class PostAnalytics
     @page_title.split(TITLE_DELIMITER).first
   end
 
-  def self.find_all_recent
-    start_date = Date.today - 30.days
-    end_date = Date.today
+  def self.find_all_today
+    start_date = Date.today
 
-    find_all_by_date_range start_date, end_date
+    find_all_by_date_range start_date, start_date
   end
 
   def self.find_all_by_date_range(start_date, end_date)

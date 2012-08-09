@@ -1,15 +1,14 @@
 require 'spec_helper'
 
 describe PostAnalytics do
-  describe '::find_all_recent' do
+  describe '::find_all_today' do
     before do
-      @start_date = Date.today - 30.days
-      @end_date = Date.today
+      @start_date = Date.today
     end
 
-    it 'returns page analytics from the past 30 days' do
-      PostAnalytics.should_receive(:find_all_by_date_range).with(@start_date, @end_date)
-      PostAnalytics.find_all_recent
+    it 'returns page analytics for today' do
+      PostAnalytics.should_receive(:find_all_by_date_range).with(@start_date, @start_date)
+      PostAnalytics.find_all_today
     end
   end
 
