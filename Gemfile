@@ -6,6 +6,7 @@ gem 'jquery-rails'
 gem 'jbuilder'
 gem 'haml'
 gem 'sass'
+gem 'google-api-client'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -19,4 +20,5 @@ group :development, :test do
 end
 
 group :test do
+  gem 'webmock'
 end

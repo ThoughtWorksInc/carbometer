@@ -1,0 +1,103 @@
+{
+   "totalsForAllResults" : {
+      "ga:visits" : "21040"
+   },
+   "query" : {
+      "dimensions" : "ga:pageTitle,ga:pagePath",
+      "start-date" : "2012-07-09",
+      "sort" : [
+         "-ga:visits"
+      ],
+      "ids" : "ga:11063475",
+      "start-index" : 1,
+      "metrics" : [
+         "ga:visits"
+      ],
+      "end-date" : "2012-08-08",
+      "max-results" : 10
+   },
+   "rows" : [
+      [
+         "Using Open Source Static Libraries in Xcode 4 | The Carbon Emitter",
+         "/2011/04/04/using-open-source-static-libraries-in-xcode-4/",
+         "3403"
+      ],
+      [
+         "Customizing the iOS keyboard | The Carbon Emitter",
+         "/2012/03/12/customizing-the-ios-keyboard/",
+         "1267"
+      ],
+      [
+         "Abusing UIViewControllers | The Carbon Emitter",
+         "/2011/03/09/abusing-uiviewcontrollers/",
+         "1037"
+      ],
+      [
+         "Concurrency with Actors | The Carbon Emitter",
+         "/2011/04/19/concurrency-with-actors/",
+         "880"
+      ],
+      [
+         "Vim Text Objects: The Definitive Guide | The Carbon Emitter",
+         "/2011/10/17/vim-text-objects-the-definitive-guide/",
+         "846"
+      ],
+      [
+         "Building Xcode 4 projects from the command line | The Carbon Emitter",
+         "/2011/04/06/building-xcode-4-projects-from-the-command-line/",
+         "738"
+      ],
+      [
+         "The Carbon Emitter | The blog of Carbon Five",
+         "/",
+         "579"
+      ],
+      [
+         "Automated ad hoc builds using Xcode 4 | The Carbon Emitter",
+         "/2011/05/04/automated-ad-hoc-builds-using-xcode-4/",
+         "575"
+      ],
+      [
+         "RSpec best practices | The Carbon Emitter",
+         "/2010/10/21/rspec-best-practices/",
+         "554"
+      ],
+      [
+         "Running Xcode 4 unit tests from the command line | The Carbon Emitter",
+         "/2011/04/06/running-xcode-4-unit-tests-from-the-command-line/",
+         "503"
+      ]
+   ],
+   "columnHeaders" : [
+      {
+         "dataType" : "STRING",
+         "columnType" : "DIMENSION",
+         "name" : "ga:pageTitle"
+      },
+      {
+         "dataType" : "STRING",
+         "columnType" : "DIMENSION",
+         "name" : "ga:pagePath"
+      },
+      {
+         "dataType" : "INTEGER",
+         "columnType" : "METRIC",
+         "name" : "ga:visits"
+      }
+   ],
+   "containsSampledData" : false,
+   "kind" : "analytics#gaData",
+   "selfLink" : "https://www.googleapis.com/analytics/v3/data/ga?ids=ga:11063475&dimensions=ga:pageTitle,ga:pagePath&metrics=ga:visits&sort=-ga:visits&start-date=2012-07-09&end-date=2012-08-08&start-index=1&max-results=10",
+   "itemsPerPage" : 10,
+   "profileInfo" : {
+      "tableId" : "ga:11063475",
+      "accountId" : "620051",
+      "profileId" : "11063475",
+      "profileName" : "blog.carbonfive.com",
+      "internalWebPropertyId" : "10588122",
+      "webPropertyId" : "UA-620051-2"
+   },
+   "id" : "https://www.googleapis.com/analytics/v3/data/ga?ids=ga:11063475&dimensions=ga:pageTitle,ga:pagePath&metrics=ga:visits&sort=-ga:visits&start-date=2012-07-09&end-date=2012-08-08&start-index=1&max-results=10",
+   "totalResults" : 271,
+   "nextLink" : "https://www.googleapis.com/analytics/v3/data/ga?ids=ga:11063475&dimensions=ga:pageTitle,ga:pagePath&metrics=ga:visits&sort=-ga:visits&start-date=2012-07-09&end-date=2012-08-08&start-index=11&max-results=10"
+}
