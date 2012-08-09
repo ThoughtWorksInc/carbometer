@@ -11,6 +11,21 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 0) do
+ActiveRecord::Schema.define(:version => 20120809175022) do
+
+  create_table "posts", :force => true do |t|
+    t.string "title"
+    t.string "path"
+  end
+
+  create_table "statistics", :force => true do |t|
+    t.integer "post_id"
+    t.string  "source"
+    t.date    "start_date"
+    t.date    "end_date"
+    t.integer "visit_count"
+  end
+
+  add_index "statistics", ["post_id"], :name => "index_statistics_on_post_id"
 
 end
