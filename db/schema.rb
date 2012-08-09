@@ -14,15 +14,18 @@
 ActiveRecord::Schema.define(:version => 20120809175022) do
 
   create_table "posts", :force => true do |t|
-    t.string "title"
-    t.string "path"
+    t.string "title", :null => false
+    t.string "path",  :null => false
   end
+
+  add_index "posts", ["path"], :name => "index_posts_on_path"
+  add_index "posts", ["title"], :name => "index_posts_on_title"
 
   create_table "statistics", :force => true do |t|
     t.integer "post_id"
-    t.string  "source"
-    t.date    "start_date"
-    t.date    "end_date"
+    t.string  "source",      :null => false
+    t.date    "start_date",  :null => false
+    t.date    "end_date",    :null => false
     t.integer "visit_count"
   end
 

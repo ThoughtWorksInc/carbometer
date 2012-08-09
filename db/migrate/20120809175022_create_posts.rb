@@ -5,7 +5,8 @@ class CreatePosts < ActiveRecord::Migration
       table.string :path, null: false
     end
 
-    create_index :posts, :path
+    add_index :posts, :title
+    add_index :posts, :path
 
     create_table :statistics do |table|
       table.integer :post_id

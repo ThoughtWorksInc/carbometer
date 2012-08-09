@@ -9,8 +9,9 @@ class PostAnalytics
                 :end_date
 
   def initialize(params = {})
-    self.start_date = params[:start_date]
-    self.end_date = params[:end_date]
+    params.each_pair do |key, value|
+      self.send "#{key}=", value
+    end
   end
 
   def page_title
