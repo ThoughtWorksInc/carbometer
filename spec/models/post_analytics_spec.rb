@@ -12,6 +12,18 @@ describe PostAnalytics do
     end
   end
 
+  describe '::find_all' do
+    before do
+      @start_date = Date.today - 1.year
+      @end_date = Date.today
+    end
+
+    it 'returns page analytics from the past year' do
+      PostAnalytics.should_receive(:find_all_by_date_range).with(@start_date, @end_date)
+      PostAnalytics.find_all
+    end
+  end
+
   describe '::find_all_by_date_range' do
     before do
       stub_request(:post, "https://accounts.google.com/o/oauth2/token").

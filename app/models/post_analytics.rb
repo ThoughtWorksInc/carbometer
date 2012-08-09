@@ -17,6 +17,13 @@ class PostAnalytics
     @page_title.split(TITLE_DELIMITER).first
   end
 
+  def self.find_all
+    start_date = Date.today - 1.year
+    end_date = Date.today
+
+    find_all_by_date_range start_date, end_date
+  end
+
   def self.find_all_today
     start_date = Date.today
 
@@ -58,7 +65,7 @@ class PostAnalytics
                                   'dimensions' => dimensions,
                                   'metrics' => metrics,
                                   'sort' => sort,
-                                  'max-results' => 1000
+                                  'max-results' => 10000
                                 })
     response.data
   end
