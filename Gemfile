@@ -15,6 +15,7 @@ group :assets do
 end
 
 group :development, :test do
+  gem 'heroku'
   gem 'rspec-rails'
   gem 'jasmine-headless-webkit'
 end
