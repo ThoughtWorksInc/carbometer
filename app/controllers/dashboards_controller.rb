@@ -1,5 +1,7 @@
 class DashboardsController < ApplicationController
-  def show
 
+  def show
+    @posts = Post.popular
   end
+
 end

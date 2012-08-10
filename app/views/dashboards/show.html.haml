@@ -1,0 +1,8 @@
+#dashboard-frame
+  .post-leaderboard
+    %ol.posts
+      - @posts.each do |post|
+        %li
+          %h3= post.title
+          .statistics
+            %span.visit-count= post.cumulative_visit_count

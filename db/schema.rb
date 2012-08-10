@@ -11,6 +11,24 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 0) do
+ActiveRecord::Schema.define(:version => 20120809175022) do
+
+  create_table "posts", :force => true do |t|
+    t.string "title",                 :null => false
+    t.string "path",  :limit => 1024, :null => false
+  end
+
+  add_index "posts", ["path"], :name => "index_posts_on_path"
+  add_index "posts", ["title"], :name => "index_posts_on_title"
+
+  create_table "statistics", :force => true do |t|
+    t.integer "post_id"
+    t.string  "source",      :null => false
+    t.date    "start_date",  :null => false
+    t.date    "end_date",    :null => false
+    t.integer "visit_count"
+  end
+
+  add_index "statistics", ["post_id"], :name => "index_statistics_on_post_id"
 
 end
