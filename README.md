@@ -13,9 +13,9 @@
     API service account's private key secret
 4. `GOOGLE_CLIENT_PROFILE_ID`
     Google Analytics Profile ID for your website
-5a. `GOOGLE_CLIENT_KEY_FILE`
+5. `GOOGLE_CLIENT_KEY_FILE`
     Location of your API service account's private key (PKCS12 File)
-5b. `GOOGLE_CLIENT_KEY`
+5. `GOOGLE_CLIENT_KEY`
     Alternate method for specifying the service account private key
     (PEM). To create a PEM file from a PKCS12 file, run the following
     command `openssl pkcs12 -in $your_key_file -out $your_key_file.pem`.
