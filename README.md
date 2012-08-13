@@ -24,13 +24,12 @@
 
 ## Deployment
 
-* Heroku:
-    Environment specific settings will have to be set as [Config Vars](https://devcenter.heroku.com/articles/config-vars).
-    Set each environment variable required (see [Required Environment Variables](#required-environment-variables))
-    Special note about google private keys: since storing files is not allowed on Heroku, you will have to set
-    your private key as an encoded PEM string. To set a multi-line
-    envirnoment variable on heroku, use the following command: `heroku
-    config:add GOOGLE_CLIENT_KEY="-----BEGIN RSA PRIVATE KEY-----
+### Heroku:
+Environment specific settings will have to be set as [Config Vars](https://devcenter.heroku.com/articles/config-vars).
+Set each environment variable required (see [Required Environment Variables](#required-environment-variables)).
+Special note about google private keys: since storing files is not allowed on Heroku, you will have to set
+your private key as an encoded PEM string. To set a multi-line environment variable on heroku, make sure to double-quote the value of your variable.
+
+    heroku config:add GOOGLE_CLIENT_KEY="-----BEGIN RSA PRIVATE KEY-----
     ...
-    -----END RSA PRIVATE KEY----- 
-    " --app $app_name`
+    -----END RSA PRIVATE KEY-----" --app $app_name
