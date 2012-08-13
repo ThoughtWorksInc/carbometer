@@ -20,4 +20,5 @@ Carbometer::Application.configure do
       end
     end
   end
+
 end
