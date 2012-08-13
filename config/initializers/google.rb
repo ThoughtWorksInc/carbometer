@@ -13,13 +13,10 @@ Carbometer::Application.configure do
   config.google_client_key        = ENV['GOOGLE_CLIENT_KEY']
 
   if config.google_client_key_file.blank?
-    module Google
-      class APIClient
-        module PKCS12
-          def self.load_key(keyfile, passphrase)
-            config.google_client_key
-          end
-        end
+    Google::APIClient::PKCS12.module_eval do
+      def self.load_key(keyfile, passphrase)
+        pem = Rails.application.config.google_client_key
+        OpenSSL::PKey::RSA.new(pem, passphrase)
       end
     end
   end
