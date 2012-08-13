@@ -17,7 +17,7 @@ Carbometer::Application.configure do
       class APIClient
         module PKCS12
           def self.load_key(keyfile, passphrase)
-            ENV['GOOGLE_CLIENT_KEY']
+            config.google_client_key
           end
         end
       end
