@@ -21,6 +21,8 @@
     (PEM). To create a PEM file from a PKCS12 file, run the following
     command `openssl pkcs12 -in $your_key_file -out $your_key_file.pem`.
     Export the contents of the PEM file as an environment variable.
+6. `RSS_FEED_URL` 
+    Wordpress RSS Feed URL
 
 ## Deployment
 

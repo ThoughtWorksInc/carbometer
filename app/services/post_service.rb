@@ -23,4 +23,8 @@ class PostService
     all_post_analytics.length
   end
 
+  def self.import_posts
+
+  end
+
 end

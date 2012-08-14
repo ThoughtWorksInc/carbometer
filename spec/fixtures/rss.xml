@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>The Carbon Emitter</title>
+	<atom:link href="http://blog.carbonfive.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.carbonfive.com</link>
+	<description>The blog of Carbon Five</description>
+	<lastBuildDate>Thu, 09 Aug 2012 18:34:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.4.1</generator>
+		<item>
+		<title>Agile for Startups</title>
+		<link>http://blog.carbonfive.com/2012/08/09/agile-for-startups/</link>
+		<comments>http://blog.carbonfive.com/2012/08/09/agile-for-startups/#comments</comments>
+		<pubDate>Thu, 09 Aug 2012 18:34:49 +0000</pubDate>
+		<dc:creator>Michael Wynholds</dc:creator>
+				<category><![CDATA[Everything Else]]></category>
+
+		<guid isPermaLink="false">http://blog.carbonfive.com/?p=6419</guid>
+		<description><![CDATA[A couple of weeks ago I gave a presentation entitled Agile for Startups to the companies in Startup UCLA, a startup accelerator program run by UCLA. I actually gave this talk a week after my colleague Lane Halley presented her &#8230; <a href="http://blog.carbonfive.com/2012/08/09/agile-for-startups/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>A couple of weeks ago I gave a presentation entitled <em>Agile for Startups</em> to the companies in <a href="http://startup.sscnet.ucla.edu/" title="Agile for Startups">Startup UCLA</a>, a startup accelerator program run by UCLA.  I actually gave this talk a week after my colleague Lane Halley <a href="http://blog.carbonfive.com/2012/08/02/seven-tips/" title="Seven Tips for Effective Customer Conversations">presented her talk</a> to the same group.</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/13758166" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
+
+<div style="margin-bottom:5px"> <strong> <a href="http://www.slideshare.net/mwynholds/agile-for-startups-13758166" title="Agile for Startups" target="_blank">Agile for Startups</a> </strong> from <strong><a href="http://www.slideshare.net/mwynholds" target="_blank">Michael Wynholds</a></strong> </div>
+
+<p>The talk went well, and I think it was well received.  The content is targeted at folks, both hackers and hustlers, who don&#8217;t have any experience with Agile techniques.  I tried to focus on techniques that can have immediate value to startups.</p>
+
+<p>Here is a summary of the eight techniques I described:</p>
+
+<span id="more-6419"></span>
+
+<ul>
+<li><strong>Story Writing</strong> &#8211; Describe your features as fine-grained <em>user stories</em>, always illustrate requirements from the perspective of the end user.  You should use the &#8220;As a&#8230; I can&#8230; So that&#8230;&#8221; pattern.<p/></li>
+
+<li><strong>Prioritization</strong> &#8211; Rank each user story in order of importance.  If some stories fall off of the bottom of your backlog, make sure they are the least important ones!<p/></li>
+
+<li><strong>Estimation</strong> &#8211; Apply a level of effort for every story.  This is done by the developers.  Then as you deliver stories, tools like <a href="http://www.pivotaltracker.com" title="Pivotal Tracker">Pivotal Tracker</a> can learn your <em>velocity</em>, and start to predict when specific milestones will be completed.<p/></li>
+
+<li><strong>Standing Daily</strong> &#8211; Spend five minutes every morning having each member of the team say what they did yesterday, what they are going to do today, and what (if anything) is blocking them.  You should physically be standing up for this meeting &#8211; it&#8217;s just a trick to keep them short!<p/></li>
+
+<li><strong>Reflection</strong> &#8211; Spend an hour every couple of weeks talking about the things your team is doing well and the areas where improvement is needed.  Use the <a href="http://dschool.stanford.edu/wp-content/themes/dschool/method-cards/i-like-i-wish-what-if.pdf">I like, I wish</a> technique.  Don&#8217;t forget to tweak your process based on this feedback.  That&#8217;s the whole point!<p/></li>
+
+<li><strong>TDD</strong> &#8211; Test drive your code and have good test coverage.  This one is very important and always sparks the most discussion.  We have <a href="http://blog.carbonfive.com/?s=test" title="Testing">lots of posts on our blog</a> about this stuff.<p/></li>
+
+<li><strong>Pair Programming</strong> &#8211; Two keyboards, one display.  One person drives, the other navigates.  Switch often.  It sounds non-intuitive to those who have never done it, but it is a very powerful technique.<p/></li>
+
+<li><strong>Refactoring</strong> &#8211; Before you implement the next user story, modify your code to prepare it for the change.  Basically, adapt your architecture just enough to handle the next feature.  It will keep your design clean without forcing you to over-architect up front.<p/></li>
+
+</ul>
+
+<p>You can read a little more about this on the <a href="http://thedishdaily.com/ucla/news/2012/07/31/carbon-five-founder-michael-wynholds-discusses-agile-development-startup-ucla" title="Agile for Startups">Dish Daily</a>.<br />
+Thanks for the good write up <a href="http://thedishdaily.com/ucla/users/chuck-stern" title="Chuck Stern">Chuck</a>!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.carbonfive.com/2012/08/09/agile-for-startups/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Seven Tips for Effective Customer Conversations</title>
+		<link>http://blog.carbonfive.com/2012/08/02/seven-tips/</link>
+		<comments>http://blog.carbonfive.com/2012/08/02/seven-tips/#comments</comments>
+		<pubDate>Thu, 02 Aug 2012 20:01:52 +0000</pubDate>
+		<dc:creator>Lane Halley</dc:creator>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[Process]]></category>
+		<category><![CDATA[customer]]></category>
+		<category><![CDATA[interview]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[product]]></category>
+		<category><![CDATA[research]]></category>
+
+		<guid isPermaLink="false">http://blog.carbonfive.com/?p=6360</guid>
+		<description><![CDATA[On July 18 I was the guest speaker at Startup UCLA, a summer accelerator program for UCLA entrepreneurs. I presented a new talk &#8220;Seven Tips for Effective Customer Conversations&#8221; and led the group in some exercises to practice core interview &#8230; <a href="http://blog.carbonfive.com/2012/08/02/seven-tips/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>On July 18 I was the guest speaker at <a href="http://startup.sscnet.ucla.edu/" title="Startup UCLA" target="_blank">Startup UCLA</a>, a summer accelerator program for UCLA entrepreneurs. I presented a new talk &#8220;Seven Tips for Effective Customer Conversations&#8221; and led the group in some exercises to practice core interview skills.</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/13677172" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
+
+<div style="margin-bottom:5px"> <strong> <a href="http://www.slideshare.net/LaneHalley/seven-tips-for-effective-customer-conversations" title="Seven Tips for Effective Customer Conversations" target="_blank">Seven Tips for Effective Customer Conversations</a> </strong> from <strong><a href="http://www.slideshare.net/LaneHalley" target="_blank">Lane Halley</a></strong> </div>
+
+<p>Here&#8217;s a summary of the seven tips presented in this deck:</p>
+
+<p><OL>
+<LI><strong>Have a plan</strong> &#8211; Use your time effectively. Know what you&#8217;re trying to learn from your customers and plan as a group so you can operate independently.</p>
+
+<p><LI><strong>Pair interviews</strong> &#8211; It&#8217;s hard to take notes and give your full attention to someone at the same time. Use two people: one leads the conversation, one takes notes. Switch roles between interviews. It also can reduce arguments later if two people on your team were there.</p>
+
+<p><LI><strong>Keep it comfortable</strong> &#8211; Focus on creating a conversation. You&#8217;ll learn more by getting people to tell stories than grilling them with a long list of questions.</p>
+
+<p><LI><strong>Avoid leading questions</strong> &#8211; Questions like <em>&#8220;How will you use our product?&#8221;</em> and <em>&#8220;How much would you pay for this?&#8221;</em> are examples of leading questions. They assume that someone wants your product and will pay for it. People will tell you something to please you, or feel smart, but their answers are not good predictors of what they will actually do. It&#8217;s better to focus on observed behavior. For example, what problems do they self-report? What do they do now to solve them? What are the costs (in cash or lost opportunity) those solutions represent?</p>
+
+<p><LI><strong>Listen for needs and goals</strong> &#8211; Entrepreneurs often tell me that conversations with several customers result in a long wish list of features that are difficult to categorize or prioritize. You can collect more useful information by going deeper into the feature request to find the need or goal it&#8217;s based on. When someone says <em>&#8220;I&#8217;d like this feature&#8221;</em> say <em>&#8220;If you had this feature, what would it allow you to do?&#8221;</em> The next thing they say will usually be a need or goal. Once you identify needs and goals, you can figure out how to address them with the right features.</p>
+
+<p><LI><strong>Listen first, then show the demo</strong> &#8211; If you&#8217;re going to show a demo, take the time to learn about the person you&#8217;re talking to first. How well do they match your target audience? What problems do they have? You can get better (and more credible) information by asking them to show you how they would use your product for real activity or problem they have just described to you.</p>
+
+<p><LI><strong>Share what you learn</strong> &#8211; Customer engagement should be an ongoing activity, not a special occasion. Make time and space for the team to share what they are learning through customer conversations. 
+</OL></p>
+
+<p>For more coverage of this event, please see <a href="http://thedishdaily.com/ucla/news/2012/07/26/lean-design-coach-lane-halley-discusses-crafting-better-user-experience-ux" title="The Dish Daily" target="_blank">The Dish Daily</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.carbonfive.com/2012/08/02/seven-tips/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Asynchronous JavaScript Testing in Jasmine, Mocha, and Vows</title>
+		<link>http://blog.carbonfive.com/2012/07/25/asynchronous-javascript-testing-in-jasmine-mocha-and-vows/</link>
+		<comments>http://blog.carbonfive.com/2012/07/25/asynchronous-javascript-testing-in-jasmine-mocha-and-vows/#comments</comments>
+		<pubDate>Thu, 26 Jul 2012 04:52:35 +0000</pubDate>
+		<dc:creator>Jared Carroll</dc:creator>
+				<category><![CDATA[Process]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[jasmine]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[mocha]]></category>
+		<category><![CDATA[Testing]]></category>
+		<category><![CDATA[vows]]></category>
+
+		<guid isPermaLink="false">http://blog.carbonfive.com/?p=6313</guid>
+		<description><![CDATA[The rise in popularity of JavaScript, especially on the server-side, has introduced more and more developers to asynchronous programming. Asynchronous, event-driven programming also requires a change in testing. In this post, we&#8217;ll look at how three popular JavaScript testing frameworks &#8230; <a href="http://blog.carbonfive.com/2012/07/25/asynchronous-javascript-testing-in-jasmine-mocha-and-vows/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>
+The rise in popularity of JavaScript, especially on the server-side, has introduced more and more developers to asynchronous programming. Asynchronous, event-driven programming also requires a change in testing. In this post, we&#8217;ll look at how three popular JavaScript testing frameworks support testing asynchronous code.
+</p>
+
+<span id="more-6313"></span>
+
+<h2>Jasmine</h2>
+
+<p>
+The first framework we&#8217;ll look at is <a href="http://pivotal.github.com/jasmine/">Jasmine</a>. Jasmine is a popular testing framework built to test client-side JavaScript. <a href="https://github.com/mhevery/jasmine-node">jasmine-node</a> is a fork of Jasmine for testing server-side JavaScript in <a href="http://nodejs.org/">node.js</a>. Both offer support for testing asynchronous code. Let&#8217;s first look at Jasmine&#8217;s support for asynchronous testing, then we&#8217;ll refactor to jasmine-node&#8217;s cleaner, simpler syntax.
+</p>
+
+<p>
+The following example uses Jasmine&#8217;s asynchronous testing support to test the <a href="http://nodejs.org/api/fs.html#fs_fs_readfile_filename_encoding_callback"><code>readFile</code></a> function in the node.js <a href="http://nodejs.org/api/fs.html">file system</a> module.
+</p>
+
+<script src="https://gist.github.com/3179778.js?file=0.coffee"></script>
+
+<p>
+In Jasmine, asynchronous code has to be executed in a function passed to the <code>runs</code> function.  In our example, this is where we call the asynchronous <code>readFile</code> function. Our <code>readFile</code> callback checks for errors, saves the contents of the file, and then sets a &#8220;done&#8221; flag.
+</p>
+
+<p>
+After passing our asynchronous code to <code>runs</code>, we need to tell Jasmine to wait until our asynchronous code has executed. Jasmine&#8217;s <code>waitsFor</code> function expects a function that returns a boolean value indicating the status of your asynchronous code. In our example, we return the &#8220;done&#8221; flag that we set in our asynchronous callback.
+</p>
+
+<p>
+Expectations of asynchronous code must also be declared in a function passed to <code>runs</code>. Above, we expect some file content to have been read by node.js.
+</p>
+
+<h2>jasmine-node</h2>
+
+<p>
+<a href="https://github.com/mhevery/jasmine-node">jasmine-node</a> integrates Jasmine with node.js. It adds simpler, more elegant asynchronous testing support to Jasmine. The following is a rewrite in jasmine-node of our previous test.
+</p>
+
+<script src="https://gist.github.com/3179778.js?file=1.coffee"></script>
+
+<p>
+In <code>jasmine-node</code>, a &#8220;done&#8221; function is passed to any setup, teardown, or example functions that declare a parameter. <code>jasmine-node</code> will then wait until the passed &#8220;done&#8221; function is called before executing the rest of the test. If the callback isn&#8217;t called after 5 seconds (the default timeout) the test will fail.
+</p>
+
+<h2>Mocha</h2>
+
+<p>
+<a href="http://visionmedia.github.com/mocha/">mocha</a> is another popular JavaScript testing framework. Its asynchronous testing support is identical to <code>jasmine-node</code>&#8216;s.
+</p>
+
+<p>
+The following is an example using mocha to test a simple <a href="http://expressjs.com/">express</a> app (for simplicity, the express app is defined in the same file).
+</p>
+
+<script src="https://gist.github.com/3179778.js?file=2.coffee"></script>
+
+<p>
+This example is similar to our <code>jasmine-node</code> example. In it, we declare a single parameter anonymous function for our <code>beforeEach</code> hook.  In our asynchronous callback we invoke the &#8220;done&#8221; function that was passed to our <code>beforeEach</code> hook. This tells mocha, which is waiting for the &#8220;done&#8221; function to be invoked, to continue executing the rest of the test.
+</p>
+
+<h2>Vows</h2>
+
+<p>
+Vows is yet another JavaScript testing framework. Vows claims to have been developed from the start to test asynchronous code.  
+</p>
+
+<p>
+The following is a vows test for connecting to a <a href="http://socket.io/">socket.io</a> server, registering an asynchronous message listener, and verifying the listener is called.
+</p>
+
+<script src="https://gist.github.com/3179778.js?file=3.coffee"></script>
+
+<p>
+In vows, a <em>topic</em> is a test fixture. A topic is passed to each <em>vow</em> (a function that runs assertions on a topic). For asychronous tests, vows provides a <code>callback</code> function. This callback function should be passed to your asynchronous code. When this callback is called, it will pass on its arguments to each vow. The above test includes a single vow that expects a welcome message from the socket server, after connecting to it.
+</p>
+
+<p>
+One gotcha with vows is that if you use the <code>callback</code> function in your topic function, then your topic function must not return anything. Since CoffeeScript functions implicitly return their last expression, we had to explicitly return <code>undefined</code>. Vows offers an alternative syntax for asynchronous topics using promises. Here&#8217;s an example test using this syntax.
+</p>
+
+<div id="gist-3179778" class="gist">
+
+        <div class="gist-file">
+          <div class="gist-data gist-syntax">
+              <div class="highlight"><pre><div class='line' id='LC1'><span class="nv">request = </span><span class="nx">require</span> <span class="s">&#39;request&#39;</span></div><div class='line' id='LC2'><span class="nv">events = </span><span class="nx">require</span> <span class="s">&#39;events&#39;</span></div><div class='line' id='LC3'><span class="nv">vows = </span><span class="nx">require</span> <span class="s">&#39;vows&#39;</span></div><div class='line' id='LC4'><span class="nv">assert = </span><span class="nx">require</span> <span class="s">&#39;assert&#39;</span></div><div class='line' id='LC5'><span class="nv">nock = </span><span class="nx">require</span> <span class="s">&#39;nock&#39;</span></div><div class='line' id='LC6'><br/></div><div class='line' id='LC7'><span class="k">class</span> <span class="nx">Google</span></div><div class='line' id='LC8'>&nbsp;&nbsp;<span class="vi">@search: </span><span class="nf">(query, callback) -&gt;</span></div><div class='line' id='LC9'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="nv">options =</span></div><div class='line' id='LC10'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nv">uri: </span><span class="s">&#39;http://www.google.com/search&#39;</span></div><div class='line' id='LC11'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nv">qs:</span></div><div class='line' id='LC12'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nv">q: </span><span class="nx">query</span></div><div class='line' id='LC13'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">request</span> <span class="nx">options</span><span class="p">,</span> <span class="nx">callback</span></div><div class='line' id='LC14'><br/></div><div class='line' id='LC15'><span class="nx">vows</span></div><div class='line' id='LC16'>&nbsp;&nbsp;<span class="p">.</span><span class="nx">describe</span><span class="p">(</span><span class="s">&#39;Google&#39;</span><span class="p">)</span></div><div class='line' id='LC17'>&nbsp;&nbsp;<span class="p">.</span><span class="nx">addBatch</span></div><div class='line' id='LC18'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="s">&#39;.search&#39;</span><span class="o">:</span></div><div class='line' id='LC19'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nv">topic: </span><span class="o">-&gt;</span></div><div class='line' id='LC20'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nv">query = </span><span class="s">&#39;q&#39;</span></div><div class='line' id='LC21'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">nock</span><span class="p">(</span><span class="s">&#39;http://www.google.com&#39;</span><span class="p">)</span></div><div class='line' id='LC22'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s">&quot;/search?q=</span><span class="si">#{</span><span class="nx">query</span><span class="si">}</span><span class="s">&quot;</span><span class="p">)</span></div><div class='line' id='LC23'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">.</span><span class="nx">reply</span> <span class="mi">200</span></div><div class='line' id='LC24'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nv">promise = </span><span class="k">new</span> <span class="nx">events</span><span class="p">.</span><span class="nx">EventEmitter</span></div><div class='line' id='LC25'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">Google</span><span class="p">.</span><span class="nx">search</span> <span class="nx">query</span><span class="p">,</span> <span class="p">(</span><span class="nx">_</span><span class="p">,</span> <span class="nx">response</span><span class="p">)</span> <span class="o">=&gt;</span></div><div class='line' id='LC26'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">promise</span><span class="p">.</span><span class="nx">emit</span> <span class="s">&#39;success&#39;</span><span class="p">,</span> <span class="nx">response</span></div><div class='line' id='LC27'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">promise</span></div><div class='line' id='LC28'><br/></div><div class='line' id='LC29'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="s">&#39;searches google for the given query&#39;</span><span class="o">:</span> <span class="nf">(_, response) -&gt;</span></div><div class='line' id='LC30'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nx">assert</span><span class="p">.</span><span class="nx">equal</span> <span class="nx">response</span><span class="p">.</span><span class="nx">statusCode</span><span class="p">,</span> <span class="mi">200</span></div><div class='line' id='LC31'>&nbsp;&nbsp;<span class="p">.</span><span class="nx">export</span> <span class="nx">module</span></div><div class='line' id='LC32'><br/></div></pre></div>
+          </div>
+
+          <div class="gist-meta">
+            <a href="https://gist.github.com/raw/3179778/4f8f0fe093c9fc135cbdc508dfa6697c3314fbfe/4.coffee" style="float:right;">view raw</a>
+            <a href="https://gist.github.com/3179778#file_4.coffee" style="float:right;margin-right:10px;color:#666">4.coffee</a>
+            <a href="https://gist.github.com/3179778">This Gist</a> brought to you by <a href="http://github.com">GitHub</a>.
+          </div>
+        </div>
+</div>
+
+
+<p>
+In this test, we define a topic that returns a promise. This promise emits a &#8220;success&#8221; event in the asynchronous <code>Google.search</code> callback. The HTTP response object passed to the callback is passed along in the &#8220;success&#8221; event, which is in turn, passed along to the single vow.
+</p>
+
+<h2>Get Some Coverage</h2>
+
+<p>
+All of these testing frameworks offer good support for writing clear tests for asynchronous code. Personally, I prefer the asynchronous syntax in jasmine-node and mocha. It&#8217;s clean and easy to understand. Vows is impressive, but I&#8217;m not a fan of its novel syntax and terminology (I just can&#8217;t get used to calling a test a &#8220;vow&#8221;). As a fan of CoffeeScript, I&#8217;m also annoyed by vows&#8217; return value requirement for asynchronous topics. I suggest you give each framework a try. The important thing is to get some coverage for all your convoluted JavaScript code.
+</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.carbonfive.com/2012/07/25/asynchronous-javascript-testing-in-jasmine-mocha-and-vows/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>Beginning Test-Driven Development in Android</title>
+		<link>http://blog.carbonfive.com/2012/07/17/beginnin-test-driven-development-in-android/</link>
+		<comments>http://blog.carbonfive.com/2012/07/17/beginnin-test-driven-development-in-android/#comments</comments>
+		<pubDate>Wed, 18 Jul 2012 05:29:17 +0000</pubDate>
+		<dc:creator>Jared Carroll</dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Process]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[tdd]]></category>
+
+		<guid isPermaLink="false">http://blog.carbonfive.com/?p=6284</guid>
+		<description><![CDATA[The Android framework contains several familiar and new architectural patterns. Fortunately, testing was not forgotten. In this post, we&#8217;ll develop a simple app test-first, exploring both functional and unit testing in Android. We&#8217;ll be using the latest Android API, 4.1, &#8230; <a href="http://blog.carbonfive.com/2012/07/17/beginnin-test-driven-development-in-android/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>
+The Android framework contains several familiar and new architectural patterns. Fortunately, testing was not forgotten.  In this post, we&#8217;ll develop a simple app test-first, exploring both functional and unit testing in Android. We&#8217;ll be using the latest Android API, 4.1, and working entirely from the command-line. All the code is available on <a href="https://github.com/jccarbonfive/beginning-tdd-in-android">github</a>.
+</p>
+<p><span id="more-6284"></span></p>
+<h2>Installing Android</h2>
+<p>
+Install the Android SDK by following the instructions on the <a href="http://developer.android.com/sdk/installing/index.html">Android developer site</a>.The SDK includes the <code>android</code> command-line tool in the <em>tools</em> directory. We&#8217;ll use the <code>android</code> command to create our projects and install our app on an emulator.
+</p>
+<p>
+The SDK only includes basic Android tools, such as the <code>android</code> command. We still need a version of the Android API and other various platform tools.
+</p>
+<p>
+Run <code>android sdk</code> to load the Android SDK Manager. Select and install the Android SDK Platform-tools and Android 4.1 options. For convenience, add both the <em>tools</em> and <em>platform-tools</em> directories to your <code>PATH</code>
+</p>
+<p><script src="https://gist.github.com/3127274.js?file=0.sh"></script></p>
+<h2>Running Tests on Android</h2>
+<p>
+There are two ways to run Android tests:
+</p>
+<ol>
+<li>On a standard-JVM without any access to the Android framework.</li>
+<li>On an Android device (or emulator).</li>
+</ol>
+<p>
+We&#8217;ll be running our tests the &#8220;Android way&#8221;, i.e. on an emulator. The obvious trade-off is speed. Our tests will run slower but, I feel more confident running tests in an environment similar to a production Android environment.
+</p>
+<p>
+The Android SDK includes an emulator that runs Android Virtual Devices. An <a href="http://developer.android.com/tools/devices/index.html">Android Virtual Device</a> is an emulator configuration for a specific version of the Android API. The <code>android</code> command can be used to create Android Virtual Devices.
+</p>
+<p>
+An Android Virtual Device requires a name and a target (an Android platform). <code>android</code> can be used to get a list of the available targets (Android APIs) we have installed.
+</p>
+<p><script src="https://gist.github.com/3127274.js?file=1.sh"></script></p>
+<p>
+We&#8217;ll use our sole Android 4.1 target and name our Android Virtual Device after our app and Android API version.
+</p>
+<p><script src="https://gist.github.com/3127274.js?file=2.sh"></script></p>
+<h2>Code and Test Code Organization</h2>
+<p>
+We now have all the Android tools, a version of the Android API, and an Android Virtual Device to run on our emulator. We can now finally start writing code.
+</p>
+<p>
+The first step we need to do is create an Android project and its separate test project. Again, we&#8217;ll use the <code>android</code> command.
+</p>
+<p><script src="https://gist.github.com/3127274.js?file=3.sh"></script></p>
+<p>
+These two commands created our two projects side-by-side, in the same directory. Each project includes all the basic Android app configuration, as well as an initial activity (controller) class.
+</p>
+<h2>Starting with a High-level Functional Test</h2>
+<p>
+In Android, functional tests are integration tests. A functional test will usually represent a user story encompassing the interaction of several different objects throughout the system. We&#8217;ll start development of our simple app with a high-level, functional test.
+</p>
+<p>
+To keep things simple, our app will consist of only two screens:
+</p>
+<ol>
+<li>A screen containing a form to submit a name.</li>
+<li>A following screen displaying a greeting using the submitting name.</li>
+</ol>
+<p>
+We&#8217;ll use <a href="http://code.google.com/p/robotium/">Robotium</a> to write our functional test. Robotium is a popular Android testing library with a very clean and intuitive API. Let&#8217;s add it to our test project.
+</p>
+<p><script src="https://gist.github.com/3127274.js?file=4.sh"></script></p>
+<p>
+<code>robotium</code> requires making a change to our app&#8217;s manifest. Add the following element as a child of the root &lt;manifest&gt; element (see the robotium <a href="http://code.google.com/p/robotium/wiki/QuestionsAndAnswers">questions and answers</a> for more information) in our non-test project&#8217;s <em>AndroidManifest.xml</em> file.
+</p>
+<p>
+<em>sample/AndroidManifest.xml</em>
+</p>
+<p><script src="https://gist.github.com/3127274.js?file=5.xml"></script></p>
+<p>
+With Robotium configured, we can write our functional test:
+</p>
+<p>
+<em>sampletest/src/com/sample/GreeterTest.java</em>
+</p>
+<p><script src="https://gist.github.com/3127274.js?file=6.java"></script></p>
+<p>
+A Robotium <code>Solo</code> object, the test-driver, fills in an editable text field, clicks a button, and then expects to see a greeting. One important thing to note is that functional tests extend the poorly named <a href="http://developer.android.com/reference/android/test/ActivityInstrumentationTestCase2.html"><code>ActivityInstrumentationTestCase2</code></a>.
+</p>
+<p>
+In order to run our functional test, we need to install our project and test project on our emulator. We&#8217;ll use the <code>emulator</code> command from the Android SDK to start an emulator based on our previously created Android Virtual Device. The first time you run a new Android Virtual Device on an emulator, remember to unlock the emulator by dragging and dropping its lock icon onto the unlock icon. Also click around a bit on the emulator to ensure everything is ok.
+</p>
+<p><script src="https://gist.github.com/3127274.js?file=7.sh"></script></p>
+<p>
+The <code>android</code> command&#8217;s <code>create project</code> and <code>create test-project</code> generate an <code>ant</code> <em>build.xml</em> file.  We can use the build file&#8217;s <code>install</code> target to build a debug package of our projects and install them on our running emulator.
+</p>
+<p><script src="https://gist.github.com/3127274.js?file=8.sh"></script></p>
+<p>
+A <code>test</code> target for running tests, is also available.
+</p>
+<p><script src="https://gist.github.com/3127274.js?file=9.sh"></script></p>
+<p>
+Alright, our first failure leads us into the implementation.
+</p>
+<h2>Getting to Green</h2>
+<p>
+Views in Android can be specified using XML. Activity objects display these views and also handle user actions, e.g. tapping a button.
+</p>
+<p>
+The <code>android</code> command&#8217;s <code>create project</code> command created our first activity for us.
+</p>
+<p>
+<em>sample/src/com/sample/Main.java</em>
+</p>
+<p><script src="https://gist.github.com/3127294.js?file=Main.java"></script></p>
+<p>
+This default implementation is fine for now; we only need to change its layout. XMl layouts are declared in <em>res/layout</em>. Let&#8217;s modify the &#8220;main&#8221; layout to consist of an editable text field and a button.
+</p>
+<p>
+<em>sample/res/layout/main.xml</em>
+</p>
+<p><script src="https://gist.github.com/3127294.js?file=main.xml"></script></p>
+<p>
+After making this change, we need to re-install the app on our emulator. Then, we can re-run our functional test.
+</p>
+<p><script src="https://gist.github.com/3127294.js?file=0.sh"></script></p>
+<p>
+Our functional test ran further this time. It successfully filled in the editable text field and clicked the button; however, it failed to see a greeting. This failure could have been caused by a number of things. So, instead of working with just a high-level functional test, let&#8217;s drop down and unit test our activity.
+</p>
+<h2>Drilling Down to a Unit Test</h2>
+<p>
+Besides functional testing, the other type of testing Android advocates is unit testing. Activity unit tests in Android run decoupled from the framework, and are thus, true unit tests. This decoupling enables unit tests to run much faster than functional tests.
+</p>
+<p>
+Here&#8217;s a sample unit test for our <code>Main</code> activity. The test verifies that another activity is started when the &#8220;submit&#8221; button is pressed.
+</p>
+<p>
+<em>sampletest/src/com/sample/MainTest.java</em>
+</p>
+<p><script src="https://gist.github.com/3127294.js?file=MainTest.java"></script></p>
+<p>
+This lower-level unit test exercises the activity by directly accessing its view widgets. It ends by verifying the submitted name is passed along with the <code>Intent</code>. One important thing to note is that unit tests extend the well-named <a href="http://developer.android.com/reference/android/test/ActivityUnitTestCase.html"><code>ActivityUnitTestCase</code></a>.
+</p>
+<p>
+To run this unit test, we need to re-build the test project and install it on our emulator. Then, instead of running both tests with the <code>test</code> target, we&#8217;ll run just this individual unit test.
+</p>
+<p><script src="https://gist.github.com/3127294.js?file=1.sh"></script></p>
+<p>
+To get this test passing, we need to add an event handler to our button&#8217;s click event and have it start a new activity.
+</p>
+<p>
+<em>sample/src/com/sample/Main.java</em>
+</p>
+<p><script src="https://gist.github.com/3127294.js?file=Main2.java"></script></p>
+<p>
+Our button click handler uses an explicit intent to an undefined <code>Greeting</code> activity. Let&#8217;s define this activity and add its configuration to our app&#8217;s manifest.
+</p>
+<p>
+<em>sample/src/com/sample/Greeting.java</em>
+</p>
+<p><script src="https://gist.github.com/3127294.js?file=Greeting.java"></script></p>
+<p>
+<em>sample/AndroidManifest</em>
+</p>
+<p><script src="https://gist.github.com/3127294.js?file=AndroidManifest.xml"></script></p>
+<p>
+After building and installing our latest changes to our emulator, we can re-run our unit test.
+</p>
+<p><script src="https://gist.github.com/3127294.js?file=2.sh"></script></p>
+<p>
+With our unit test passing, we can come back up and re-run our higher-level functional test.
+</p>
+<p><script src="https://gist.github.com/3127294.js?file=3.sh"></script></p>
+<h2>A Solid Foundation</h2>
+<p>
+While this post only explored activity testing in Android, there is also support for testing other Android components e.g., services and content providers. All the basic building blocks for effective testing are there.  Hopefully Android developers, like Rubyists, will continue to practice and embrace testing. Only through testing will our tools continue to improve.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.carbonfive.com/2012/07/17/beginnin-test-driven-development-in-android/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Readme Essentials</title>
+		<link>http://blog.carbonfive.com/2012/07/13/readme-essentials/</link>
+		<comments>http://blog.carbonfive.com/2012/07/13/readme-essentials/#comments</comments>
+		<pubDate>Fri, 13 Jul 2012 16:00:06 +0000</pubDate>
+		<dc:creator>Jonah Williams</dc:creator>
+				<category><![CDATA[Process]]></category>
+
+		<guid isPermaLink="false">http://blog.carbonfive.com/?p=6274</guid>
+		<description><![CDATA[On recent projects I&#8217;ve been trying to practice a little bit of readme driven development and trying to demand that the project maintain a useful readme. Theoretically the contents of the readme are things the entire development team is familiar &#8230; <a href="http://blog.carbonfive.com/2012/07/13/readme-essentials/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>On recent projects I&#8217;ve been trying to practice a little bit of <a href="http://tom.preston-werner.com/2010/08/23/readme-driven-development.html">readme driven development</a> and trying to demand that the project maintain a useful readme. Theoretically the contents of the readme are things the entire development team is familiar with. Capturing them in a readme has still proven to be a useful exercise which adds clarity to the project&#8217;s structure, reveals tricks known by only some developers, and has been a significant time saver when bringing new developers onto the project.</p>
+
+<p>Each project has its own needs but I have found that they all benefit from instructions which allow other developers to get up to speed quickly. When I join a project as a developer or consider using a shared library, I should be able to answer at a glace:</p>
+
+<ul>
+<li>What does this project do?</li>
+<li>How can I see it work?</li>
+<li>How do I run tests?</li>
+<li>How do I install/deploy/release the project?</li>
+<li>How should I submit contributions or report bugs?</li>
+<li>How do I know what needs to be done?</li>
+<li>What license is this offered under?</li>
+</ul>
+
+<p>With those questions in mind I&#8217;ve started using the following as a template for my projects&#8217; readme files:</p>
+
+<span id="more-6274"></span>
+
+<div id="gist-3101407" class="gist">
+
+        <div class="gist-file">
+          <div class="gist-data gist-syntax">
+              <div class="highlight"><pre><div class='line' id='LC1'># _Project_</div><div class='line' id='LC2'><br/></div><div class='line' id='LC3'>_Description: What does this project do and who does it serve?_</div><div class='line' id='LC4'><br/></div><div class='line' id='LC5'>## Project Setup</div><div class='line' id='LC6'><br/></div><div class='line' id='LC7'>_How do I, as a developer, start working on the project?_ </div><div class='line' id='LC8'><br/></div><div class='line' id='LC9'>1. _What dependencies does it have (where are they expressed) and how do I install them?_</div><div class='line' id='LC10'>2. _How can I see the project working before I change anything?_</div><div class='line' id='LC11'><br/></div><div class='line' id='LC12'>## Testing</div><div class='line' id='LC13'><br/></div><div class='line' id='LC14'>_How do I run the project&#39;s automated tests?_</div><div class='line' id='LC15'><br/></div><div class='line' id='LC16'>### Unit Tests</div><div class='line' id='LC17'><br/></div><div class='line' id='LC18'>1. `rake spec`</div><div class='line' id='LC19'><br/></div><div class='line' id='LC20'>### Integration Tests</div><div class='line' id='LC21'><br/></div><div class='line' id='LC22'>1. _Run other local services / provide credentials for external services._</div><div class='line' id='LC23'>2. `rake spec:integration`</div><div class='line' id='LC24'><br/></div><div class='line' id='LC25'>## Deploying</div><div class='line' id='LC26'><br/></div><div class='line' id='LC27'>### _How to setup the deployment environment_</div><div class='line' id='LC28'><br/></div><div class='line' id='LC29'>- _Required heroku addons, packages, or chef recipes._</div><div class='line' id='LC30'>- _Required environment variables or credentials not included in git._</div><div class='line' id='LC31'>- _Monitoring services and logging._</div><div class='line' id='LC32'><br/></div><div class='line' id='LC33'>### _How to deploy_</div><div class='line' id='LC34'><br/></div><div class='line' id='LC35'>## Troubleshooting &amp; Useful Tools</div><div class='line' id='LC36'><br/></div><div class='line' id='LC37'>_Examples of common tasks_</div><div class='line' id='LC38'><br/></div><div class='line' id='LC39'>&gt; e.g.</div><div class='line' id='LC40'>&gt; </div><div class='line' id='LC41'>&gt; - How to make curl requests while authenticated via oauth.</div><div class='line' id='LC42'>&gt; - How to monitor background jobs.</div><div class='line' id='LC43'>&gt; - How to run the app through a proxy.</div><div class='line' id='LC44'><br/></div><div class='line' id='LC45'>## Contributing changes</div><div class='line' id='LC46'><br/></div><div class='line' id='LC47'>- _Internal git workflow_</div><div class='line' id='LC48'>- _Pull request guidelines_</div><div class='line' id='LC49'>- _Tracker project_</div><div class='line' id='LC50'>- _Google group_</div><div class='line' id='LC51'>- _irc channel_</div><div class='line' id='LC52'>- _&quot;Please open github issues&quot;_</div><div class='line' id='LC53'><br/></div><div class='line' id='LC54'>## License</div><div class='line' id='LC55'><br/></div></pre></div>
+          </div>
+
+          <div class="gist-meta">
+            <a href="https://gist.github.com/raw/3101407/25d045875fc4824e1d1dcce6857e6c1fd8ba01a2/readme.markdown" style="float:right;">view raw</a>
+            <a href="https://gist.github.com/3101407#file_readme.markdown" style="float:right;margin-right:10px;color:#666">readme.markdown</a>
+            <a href="https://gist.github.com/3101407">This Gist</a> brought to you by <a href="http://github.com">GitHub</a>.
+          </div>
+        </div>
+</div>
+
+
+<p>What do your readmes look like?</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.carbonfive.com/2012/07/13/readme-essentials/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>iOS Integration Tests with Kiwi</title>
+		<link>http://blog.carbonfive.com/2012/07/11/ios-integration-tests-with-kiwi/</link>
+		<comments>http://blog.carbonfive.com/2012/07/11/ios-integration-tests-with-kiwi/#comments</comments>
+		<pubDate>Wed, 11 Jul 2012 15:55:08 +0000</pubDate>
+		<dc:creator>Jonah Williams</dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[continuous integration]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[networking]]></category>
+		<category><![CDATA[objective-c]]></category>
+		<category><![CDATA[Testing]]></category>
+
+		<guid isPermaLink="false">http://blog.carbonfive.com/?p=6262</guid>
+		<description><![CDATA[I have been using Kiwi to run my iOS projects&#8217; tests. Kiwi works great for defining BDD style unit tests which express the sort of nested assertions I like to write. Unit tests should test code in isolation so that &#8230; <a href="http://blog.carbonfive.com/2012/07/11/ios-integration-tests-with-kiwi/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>I have been using <a href="https://github.com/allending/Kiwi">Kiwi</a> to run my iOS projects&#8217; tests. Kiwi works great for defining BDD style unit tests which express the sort of nested assertions I like to write.</p>
+
+<p>Unit tests should test code in isolation so that they remain small, fast, and stable. So my unit tests mock or stub any network calls or calls to other components, assert that those calls were made correctly, and invoke callbacks where necessary.</p>
+
+<p>I recently wanted to add a set of integration tests which would verify that the app I was building could successfully interact with a remote API. These are certainly not unit tests; they are comparatively slow to run, they are fragile as they depend on a functing remote server configued in a known configuration, and they excercise several application components working together. They are also a great way to verify that the API version which the app communicates with still works as expected. Without such tests changes to the client or server could brake behaviors we rely on.</p>
+
+<span id="more-6262"></span>
+
+<h2>Setup</h2>
+
+<p>I created a new logic test target in my application to contain the integration tests. This isolated them from my unit tests and allowed me to run the fast unit tests frequently and switch to the slow integeration tests when necessary.</p>
+
+<p>Since this was a logic test target it was also easy to add an additional scheme which allowed me to run the integration tests from the command line and in my CI environment. (See <a href="http://blog.carbonfive.com/2011/04/06/running-xcode-4-unit-tests-from-the-command-line">running xcode units tests from the command line</a>)</p>
+
+<h2>Testing</h2>
+
+<p>Once I could run tests I had to find a way to setup application state for my tests. For synchronous processes this is no problem. However the components I wanted to tests added network requests to operation queues. I wanted to allow those requests to execute before performing assertions on their results.</p>
+
+<p>Kiwi includes some support for this sort of asynchronous testing with a <code>shouldEventually</code> matcher:</p>
+
+<pre><code>[[expectFutureValue(fetchedData) shouldEventually] beNonNil];
+</code></pre>
+
+<p>That was great for simple assertions. It didn&#8217;t help when I want to assert that <code>fetchedData</code> was not only non-nil but was also a dictionary containing a particular set of keys and values. Nor did it help when I needed to manage the state of remote resources; creating a new resource, asserting it existed, updating it, deleting it, and verifying that the delete succeeded.</p>
+
+<p>For those cases I needed a tool which would allow me to pause the tests until some asynchronous process finished.</p>
+
+<p>My solution was the following category:</p>
+
+<div id="gist-3085287" class="gist">
+
+        <div class="gist-file">
+          <div class="gist-data gist-syntax">
+              <div class="highlight"><pre><div class='line' id='LC1'><span class="cp">#import &lt;Kiwi/Kiwi.h&gt;</span></div><div class='line' id='LC2'><span class="cp">#import &quot;KWSpec+WaitFor.h&quot;</span></div><div class='line' id='LC3'><br/></div><div class='line' id='LC4'><span class="n">SPEC_BEGIN</span><span class="p">(</span><span class="n">Example</span><span class="p">)</span></div><div class='line' id='LC5'><br/></div><div class='line' id='LC6'><span class="n">describe</span><span class="p">(</span><span class="s">@&quot;it takes a while&quot;</span><span class="p">,</span> <span class="o">^</span><span class="p">{</span></div><div class='line' id='LC7'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="n">__block</span> <span class="n">NSDictionary</span> <span class="o">*</span><span class="n">response</span> <span class="o">=</span> <span class="nb">nil</span><span class="p">;</span></div><div class='line' id='LC8'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="n">beforeAll</span><span class="p">(</span><span class="o">^</span><span class="p">{</span></div><div class='line' id='LC9'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="n">__block</span> <span class="kt">BOOL</span> <span class="n">requestCompleted</span> <span class="o">=</span> <span class="n">NO</span><span class="p">;</span>    </div><div class='line' id='LC10'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="n">AFJSONRequestOperation</span> <span class="o">*</span><span class="n">operation</span> <span class="o">=</span> <span class="p">[</span><span class="n">AFJSONRequestOperation</span> <span class="nl">JSONRequestOperationWithRequest:</span><span class="n">request</span> </div><div class='line' id='LC11'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nl">success:</span><span class="o">^</span><span class="p">(</span><span class="n">NSURLRequest</span> <span class="o">*</span><span class="n">request</span><span class="p">,</span> <span class="n">NSHTTPURLResponse</span> <span class="o">*</span><span class="n">response</span><span class="p">,</span> <span class="kt">id</span> <span class="n">JSON</span><span class="p">)</span> <span class="p">{</span></div><div class='line' id='LC12'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="n">requestCompleted</span> <span class="o">=</span> <span class="n">YES</span><span class="p">;</span></div><div class='line' id='LC13'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="n">response</span> <span class="o">=</span> <span class="n">JSON</span><span class="p">;</span></div><div class='line' id='LC14'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span> </div><div class='line' id='LC15'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nl">failure:</span><span class="o">^</span><span class="p">(</span><span class="n">NSURLRequest</span> <span class="o">*</span><span class="n">request</span><span class="p">,</span> <span class="n">NSHTTPURLResponse</span> <span class="o">*</span><span class="n">response</span><span class="p">,</span> <span class="n">NSError</span> <span class="o">*</span><span class="n">error</span><span class="p">,</span> <span class="kt">id</span> <span class="n">JSON</span><span class="p">)</span> <span class="p">{</span></div><div class='line' id='LC16'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="n">requestCompleted</span> <span class="o">=</span> <span class="n">YES</span><span class="p">;</span></div><div class='line' id='LC17'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC18'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">];</span></div><div class='line' id='LC19'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="n">operation</span> <span class="n">start</span><span class="p">];</span></div><div class='line' id='LC20'><br/></div><div class='line' id='LC21'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[</span><span class="n">KWSpec</span> <span class="nl">waitWithTimeout:</span><span class="mf">3.0</span> <span class="nl">forCondition:</span><span class="o">^</span><span class="kt">BOOL</span><span class="p">()</span> <span class="p">{</span></div><div class='line' id='LC22'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="k">return</span> <span class="n">requestCompleted</span><span class="p">;</span></div><div class='line' id='LC23'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}];</span></div><div class='line' id='LC24'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">});</span></div><div class='line' id='LC25'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="n">it</span><span class="p">(</span><span class="s">@&quot;includes the related objects in the response&quot;</span><span class="p">,</span> <span class="o">^</span><span class="p">{</span></div><div class='line' id='LC26'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[[[</span><span class="n">response</span> <span class="nl">objectForKey:</span><span class="s">@&quot;children&quot;</span><span class="p">]</span> <span class="n">should</span><span class="p">]</span> <span class="nl">containObjects:</span><span class="s">@&quot;foo&quot;</span><span class="p">,</span> <span class="s">@&quot;bar&quot;</span><span class="p">,</span> <span class="s">@&quot;baz&quot;</span><span class="p">,</span> <span class="nb">nil</span><span class="p">];</span></div><div class='line' id='LC27'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">});</span></div><div class='line' id='LC28'><span class="p">});</span></div><div class='line' id='LC29'><br/></div><div class='line' id='LC30'><span class="n">SPEC_END</span></div></pre></div>
+          </div>
+
+          <div class="gist-meta">
+            <a href="https://gist.github.com/raw/3085287/3cd9a8e19c1a5bac486ce858fd67f34b6e9304fc/example_test.m" style="float:right;">view raw</a>
+            <a href="https://gist.github.com/3085287#file_example_test.m" style="float:right;margin-right:10px;color:#666">example_test.m</a>
+            <a href="https://gist.github.com/3085287">This Gist</a> brought to you by <a href="http://github.com">GitHub</a>.
+          </div>
+        </div>
+
+        <div class="gist-file">
+          <div class="gist-data gist-syntax">
+              <div class="highlight"><pre><div class='line' id='LC1'><span class="cp">#import &quot;KWSpec.h&quot;</span></div><div class='line' id='LC2'><br/></div><div class='line' id='LC3'><span class="k">@interface</span> <span class="nc">KWSpec</span> <span class="nl">(WaitFor)</span></div><div class='line' id='LC4'><br/></div><div class='line' id='LC5'><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">waitWithTimeout:</span><span class="p">(</span><span class="n">NSTimeInterval</span><span class="p">)</span><span class="nv">timeout</span> <span class="nf">forCondition:</span><span class="p">(</span><span class="kt">BOOL</span><span class="p">(</span><span class="o">^</span><span class="p">)())</span><span class="nv">conditionalBlock</span><span class="p">;</span></div><div class='line' id='LC6'><br/></div><div class='line' id='LC7'><span class="k">@end</span></div></pre></div>
+          </div>
+
+          <div class="gist-meta">
+            <a href="https://gist.github.com/raw/3085287/cb2e32ef6e7bfb20e2d06860aaa8f834a1b5f75b/KWSpec+WaitFor.h" style="float:right;">view raw</a>
+            <a href="https://gist.github.com/3085287#file_kw_spec+wait_for.h" style="float:right;margin-right:10px;color:#666">KWSpec+WaitFor.h</a>
+            <a href="https://gist.github.com/3085287">This Gist</a> brought to you by <a href="http://github.com">GitHub</a>.
+          </div>
+        </div>
+
+        <div class="gist-file">
+          <div class="gist-data gist-syntax">
+              <div class="highlight"><pre><div class='line' id='LC1'><span class="cp">#import &quot;KWSpec+WaitFor.h&quot;</span></div><div class='line' id='LC2'><br/></div><div class='line' id='LC3'><span class="k">@implementation</span> <span class="nc">KWSpec</span> <span class="nl">(WaitFor)</span></div><div class='line' id='LC4'><br/></div><div class='line' id='LC5'><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">waitWithTimeout:</span><span class="p">(</span><span class="n">NSTimeInterval</span><span class="p">)</span><span class="nv">timeout</span> <span class="nf">forCondition:</span><span class="p">(</span><span class="kt">BOOL</span><span class="p">(</span><span class="o">^</span><span class="p">)())</span><span class="nv">conditionalBlock</span> <span class="p">{</span></div><div class='line' id='LC6'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="n">NSDate</span> <span class="o">*</span><span class="n">timeoutDate</span> <span class="o">=</span> <span class="p">[[</span><span class="n">NSDate</span> <span class="n">alloc</span><span class="p">]</span> <span class="nl">initWithTimeIntervalSinceNow:</span><span class="n">timeout</span><span class="p">];</span></div><div class='line' id='LC7'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="k">while</span> <span class="p">(</span><span class="n">conditionalBlock</span><span class="p">()</span> <span class="o">==</span> <span class="n">NO</span><span class="p">)</span> <span class="p">{</span></div><div class='line' id='LC8'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="k">if</span> <span class="p">([</span><span class="n">timeoutDate</span> <span class="nl">timeIntervalSinceDate:</span><span class="p">[</span><span class="n">NSDate</span> <span class="n">date</span><span class="p">]]</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span></div><div class='line' id='LC9'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="k">return</span><span class="p">;</span></div><div class='line' id='LC10'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC11'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">[[</span><span class="n">NSRunLoop</span> <span class="n">currentRunLoop</span><span class="p">]</span> <span class="nl">runUntilDate:</span><span class="p">[</span><span class="n">NSDate</span> <span class="nl">dateWithTimeIntervalSinceNow:</span><span class="mf">0.1</span><span class="p">]];</span></div><div class='line' id='LC12'>&nbsp;&nbsp;&nbsp;&nbsp;<span class="p">}</span></div><div class='line' id='LC13'><span class="p">}</span></div><div class='line' id='LC14'><br/></div><div class='line' id='LC15'><span class="k">@end</span></div></pre></div>
+          </div>
+
+          <div class="gist-meta">
+            <a href="https://gist.github.com/raw/3085287/2d3fbdeba0bb470b8f081d4d3f87568211fe25f4/KWSpec+WaitFor.m" style="float:right;">view raw</a>
+            <a href="https://gist.github.com/3085287#file_kw_spec+wait_for.m" style="float:right;margin-right:10px;color:#666">KWSpec+WaitFor.m</a>
+            <a href="https://gist.github.com/3085287">This Gist</a> brought to you by <a href="http://github.com">GitHub</a>.
+          </div>
+        </div>
+</div>
+
+]]></content:encoded>
+			<wfw:commentRss>http://blog.carbonfive.com/2012/07/11/ios-integration-tests-with-kiwi/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>Fixture data for iOS tests</title>
+		<link>http://blog.carbonfive.com/2012/07/09/fixture-data-for-ios-tests/</link>
+		<comments>http://blog.carbonfive.com/2012/07/09/fixture-data-for-ios-tests/#comments</comments>
+		<pubDate>Mon, 09 Jul 2012 23:37:38 +0000</pubDate>
+		<dc:creator>Jonah Williams</dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[objective-c]]></category>
+		<category><![CDATA[Testing]]></category>
+		<category><![CDATA[Xcode]]></category>
+
+		<guid isPermaLink="false">http://blog.carbonfive.com/?p=6249</guid>
+		<description><![CDATA[I have talked about running xcode units tests from the command line before. When I&#8217;m running tests I often want to load some sort of test fixture data for use in my tests. For example: I might want to keep &#8230; <a href="http://blog.carbonfive.com/2012/07/09/fixture-data-for-ios-tests/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>I have talked about <a href="http://blog.carbonfive.com/2011/04/06/running-xcode-4-unit-tests-from-the-command-line">running xcode units tests from the command line</a> before. When I&#8217;m running tests I often want to load some sort of test fixture data for use in my tests. For example: I might want to keep a file of recorded API responses so that I can stub out network calls.</p>
+
+<p>In an application I would normally load a local resource using NSBundle:</p>
+
+<pre><code>NSBundle *bundle = [NSBundle mainBundle];
+NSDictionary *data = [NSDictionary dictionaryWithContentsOfURL:[bundle URLForResource:@"data" withExtension:@"plist"]];
+</code></pre>
+
+<p>However this won&#8217;t work for resources included only in a logic test target. Instead I have to find the test class&#8217; bundle:</p>
+
+<pre><code>- (void)testLoadingResources
+{
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    NSDictionary *data = [NSDictionary dictionaryWithContentsOfURL:[bundle URLForResource:@"test_data" withExtension:@"plist"]];
+</code></pre>
+
+<p>Breaking into the debugger while running tests we can see that multiple bundles are available when running logic tests (when a TEST_HOST has not been set):</p>
+
+<pre><code>(lldb) po [NSBundle allBundles]
+(id) $4 = 0x01939c90 &lt;__NSArrayI 0x1939c90&gt;(
+NSBundle &lt;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/Developer/usr/bin&gt; (loaded),
+NSBundle &lt;/Users/Jonah/Library/Developer/Xcode/DerivedData/demo-cmievackjxrgicduqyniuhyntvje/Build/Products/Debug-iphonesimulator/demoTests.octest&gt; (loaded)
+)
+</code></pre>
+
+<p>While application tests only have a single bundle:</p>
+
+<pre><code>(lldb) po [NSBundle allBundles]
+(id) $3 = 0x06a527f0 &lt;__NSArrayI 0x6a527f0&gt;(
+NSBundle &lt;/Users/Jonah/Library/Application Support/iPhone Simulator/5.1/Applications/E4292AB1-4F69-4D7D-AF96-C9FA09B34F17/demo.app&gt; (loaded)
+)
+</code></pre>
+
+<p><code>[NSBundle bundleForClass:[self class]]</code> will return the appropriate bundle in either case.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.carbonfive.com/2012/07/09/fixture-data-for-ios-tests/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Project/Technology Showcase, April 25th</title>
+		<link>http://blog.carbonfive.com/2012/04/17/project-technology-showcase/</link>
+		<comments>http://blog.carbonfive.com/2012/04/17/project-technology-showcase/#comments</comments>
+		<pubDate>Wed, 18 Apr 2012 00:16:31 +0000</pubDate>
+		<dc:creator>Christian Nelson</dc:creator>
+				<category><![CDATA[Process]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[fibrous]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[mongo]]></category>
+		<category><![CDATA[node.js]]></category>
+		<category><![CDATA[rails]]></category>
+
+		<guid isPermaLink="false">http://blog.carbonfive.com/?p=6227</guid>
+		<description><![CDATA[Carbon Five and Good Eggs are joining up to show off some of the projects they&#8217;ve recently worked with an emphasis on the technology that made them possible. We want to share what we think is interesting and what we&#8217;ve &#8230; <a href="http://blog.carbonfive.com/2012/04/17/project-technology-showcase/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>Carbon Five and Good Eggs are joining up to show off some of the projects they&#8217;ve recently worked with an emphasis on the technology that made them possible. We want to share what we think is interesting and what we&#8217;ve learned along the way.</p>
+
+<p><strong>Genetic Symphony</strong> &#8211; A Genentech, IDEO, and Carbon Five collaboration for TED2012. Participants provide a genetic sample via a cheek swab, which is processed overnight and used to generate a unique song and visualization. Tech includes: Backbone, CoffeeScript, Audia, PhoneGap, SoX, RMagick, Rails, Jasmine and Sinon.</p>
+
+<p>Presenters: David Hendee and Sean Durham, Carbon Five</p>
+
+<p><strong>ChatOS</strong> &#8211; A collaborative UX/programming experiment that allows participants to build a shared real-time web experience. It provides the basic plumbing that makes collaborative programming possible and leaves it up to the participants to build the tools and design the interactions. The talk will provide a live, interactive demonstration, and will briefly cover the technology behind the application including Node.js, Mocha.js, HTML 5, Web Sockets, and Mongo DB.</p>
+
+<p>Presenter: Alex Cruikshank, Carbon Five</p>
+
+<p><strong>Escape from the Pyramid of Doom</strong> &#8211; If you set out to build real, reliable apps using Node.js you will need to tame the callback-based asynchronous jungle you find yourself in. For the last several months at Good Eggs we have explored solutions that include a combination of third party libraries, homegrown libraries, and convention. For this talk, we use our journey to provide a survey of different techniques for writing asynchronous code in Node.js including fibrous, the library solution that we currently use to support our established conventions.</p>
+
+<p>Presenters: Alon Salant and Randy Puro, Good Eggs</p>
+
+<p><strong>Q &amp; A</strong> &#8211; We want to continue discussing anything already mentioned, or go over other topics that might be interesting (e.g. js testing, tech stacks, hosting, project management, etc).</p>
+
+<p>Wednesday April 25th. Doors at 6 and talks start around 6:30. Food and drinks will be provided. Huge thanks to CBSi for the venue and sponsoring food/drinks!</p>
+
+<p><strong>Please RSVP on the <a href="http://www.meetup.com/jsmeetup/events/60203352">SF JS meetup event page</a>!</strong></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.carbonfive.com/2012/04/17/project-technology-showcase/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Tech Talk: Seth Ladd on Dart</title>
+		<link>http://blog.carbonfive.com/2012/04/13/tech-talk-seth-ladd-on-dart/</link>
+		<comments>http://blog.carbonfive.com/2012/04/13/tech-talk-seth-ladd-on-dart/#comments</comments>
+		<pubDate>Fri, 13 Apr 2012 15:21:32 +0000</pubDate>
+		<dc:creator>Christian Nelson</dc:creator>
+				<category><![CDATA[Web]]></category>
+		<category><![CDATA[dart]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">http://blog.carbonfive.com/?p=6218</guid>
+		<description><![CDATA[Seth Ladd (Google, @sethladd) joined us last week and presented An Introduction to Dart: The structured web development platform. You should check it out, the folks over at Google are doing some interesting things. Dart is young and has potential. &#8230; <a href="http://blog.carbonfive.com/2012/04/13/tech-talk-seth-ladd-on-dart/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>Seth Ladd (Google, <a href="https://twitter.com/#!/sethladd">@sethladd</a>) joined us last week and presented <strong>An Introduction to Dart: The structured web development platform</strong>. You should check it out, the folks over at Google are doing some interesting things. Dart is young and has potential.</p>
+
+<iframe src="http://player.vimeo.com/video/40236121" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+<p>Learn more about Dart at <a href="http://dartlang.org" title="dartlang.org" target="_blank">http://dartlang.org</a>.</p>
+
+<p>Thanks Seth! Looking forward to the next one.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.carbonfive.com/2012/04/13/tech-talk-seth-ladd-on-dart/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>UX Recipe: Developer Wireframe Walkthrough</title>
+		<link>http://blog.carbonfive.com/2012/03/21/wireframe-walkthrough/</link>
+		<comments>http://blog.carbonfive.com/2012/03/21/wireframe-walkthrough/#comments</comments>
+		<pubDate>Wed, 21 Mar 2012 23:13:44 +0000</pubDate>
+		<dc:creator>David Hendee</dc:creator>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[Process]]></category>
+		<category><![CDATA[agile design]]></category>
+		<category><![CDATA[collaboration]]></category>
+		<category><![CDATA[lean startups]]></category>
+		<category><![CDATA[lean ux]]></category>
+		<category><![CDATA[recipe]]></category>
+		<category><![CDATA[user experience]]></category>
+
+		<guid isPermaLink="false">http://blog.carbonfive.com/?p=6122</guid>
+		<description><![CDATA[This is the first in a series of posts highlighting Lean UX practices at Carbon Five. They are presented as &#8216;recipes&#8217; for you try out for yourself, then alter them to make them your own. While more and more of &#8230; <a href="http://blog.carbonfive.com/2012/03/21/wireframe-walkthrough/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p><em>This is the first in a series of posts highlighting Lean UX practices at Carbon Five. They are presented as &#8216;recipes&#8217; for you try out for yourself, then alter them to make them your own.</em></p>
+
+<p><img src="http://blog.carbonfive.com/wp-content/uploads/2012/03/wireframe-walkthrough.jpg" alt="Wireframe Walkthrough" title="wireframe-walkthrough" width="440" class="aligncenter size-full wp-image-6127" /></p>
+
+<p>While more and more of our clients are engaging us in full-service design/build projects, we still enjoy working with outside or on-staff designers. And even when we are providing design services, we always want to maximize the collaboration between the designers, engineers and business owners on our projects.</p>
+
+<p>Last year, Janice Fraser of <a href="http://luxr.co/">LUXr</a> introduced us to an activity called the &#8220;Wireframe Walkthrough.&#8221; It&#8217;s probably something you&#8217;re already doing on projects without quite putting a formal name or process around it. We&#8217;ve taken the activity and deconstructed it a bit, added our insights, and put a fancy title on it in the hopes that others will try it out and add their experience and wisdom.</p>
+
+<span id="more-6122"></span>
+
+<h2>What is it?</h2>
+
+<p>A collaborative design critique from a technical perspective to identify hard features and suggest alternatives.</p>
+
+<h2>Why do it?</h2>
+
+<p>By engaging designers and engineers in a constructive discussion of tradeoffs you stand to get more bang for your development buck. Posting wireframes on walls also helps externalize ideas and define the project&#8217;s collaborative space.</p>
+
+<h2>When to do it?</h2>
+
+<p>It’s typically done weekly during the planning session as the designers generate wireframes for the next iteration or two; but it can be done any time and should definitely be done during kickoff.</p>
+
+<h2>How to do it?</h2>
+
+<ol>
+<li><em>(Designer)</em> <strong>Print out and post the latest wireframes on a wall at gallery height.</strong> Find a developer and put them at arms length from the drawings.</li>
+<li><em>(Developer)</em> <strong>Ask about the current state of the designs and what kind of feedback they&#8217;re looking for.</strong> Find out if the designer is more interested in generative or evaluative feedback. Try asking &#8220;Where are you at?&#8221;</li>
+<li><em>(Designer)</em> <strong>Let the developer know about your goals for the walkthrough.</strong> For instance, say &#8220;I&#8217;m really interested in hearing your thoughts on&#8230;&#8221;</li>
+<li><em>(Developer)</em> <strong>Acknowledge the challenge.</strong> Good design is as hard as writing good code. Share some enthusiasm. Then walk through the flow, pointing where your mouse would be. Narrate what you are thinking and doing as a user. Say things like &#8220;I&#8217;m trying to find the contact us page.&#8221;</li>
+<li><em>(Designer)</em> <strong>Take notes on stickies.</strong> Place the stickies directly on the wireframes to mark the location of the comment or observation. This is essentially a free usability test!</li>
+<li><em>(Developer)</em> <strong>Note missing functionality or difficult technical challenges.</strong> Ask questions about the user rather than making statements. For instance: &#8220;How would I find a forgotten password?&#8221; rather than &#8220;You forgot the forgot your password screen.&#8221; Keep in mind that this is a cooperative discussion about the design, not a judgement on the designer.</li>
+<li><em>(Designer)</em> <strong>Take notes and offer insights into the current design solution.</strong> Listen, breathe, and try not to get defensive (or think of elephants). Postpone deep or off-topic discussions. For instance, say &#8220;That&#8217;s something we&#8217;ve been really struggling with. We should schedule a meeting to talk about that after.&#8221;</li>
+<li><em>(Developer)</em> <strong>Suggest alternatives to any particularly challenging engineering implications.</strong> Try engaging the designer with phrases like &#8220;What user need are we trying to address here?&#8221; or &#8220;We could try&#8230; and get a similar result with less effort.&#8221; Challenge yourself and throw the designer a bone by saying something like &#8220;This is the main feature so it makes sense that we spend extra time on it.&#8221;</li>
+<li><em>(Designer)</em> <strong>Thank the developer.</strong> Incorporate feedback as appropriate. Rinse and repeat. It&#8217;s better to do this a little bit all the time.</li>
+</ol>
+
+<p>That&#8217;s it! Please let us know if you have any tricks or tips to add, or if you have a suggestion for our next  Lean UX &#8216;recipe.&#8217;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.carbonfive.com/2012/03/21/wireframe-walkthrough/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,3 +1,3 @@
 def fixture_for(fixture)
-  Rails.root.join('spec', 'fixtures', "#{fixture}.json").read
+  Rails.root.join('spec', 'fixtures', "#{fixture}").read
 end

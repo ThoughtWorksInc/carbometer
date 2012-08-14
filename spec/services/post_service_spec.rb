@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 describe PostService do
+
   describe '::reset_posts' do
     before do
       stub_requests_for(:google)
@@ -19,7 +20,7 @@ describe PostService do
     end
   end
 
-  describe '::import_posts' do
+  describe '::import_post_statistics' do
     before do
       source_one = PostAnalytics.new({
         page_title: 'title',
@@ -46,4 +47,11 @@ describe PostService do
       expect(@imported_statistics_count).to equal(2)
     end
   end
+
+  describe '::import_posts' do
+    it 'imports posts from an RSS feed' do
+      PostService.import_posts
+    end
+  end
+
 end
