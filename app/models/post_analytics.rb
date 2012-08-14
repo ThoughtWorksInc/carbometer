@@ -1,4 +1,5 @@
 class PostAnalytics
+
   TITLE_DELIMITER = ' |'
 
   attr_accessor :page_title,
