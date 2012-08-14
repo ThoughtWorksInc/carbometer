@@ -5,3 +5,4 @@ tmp/**/*
 .DS_Store
 .jhw-cache
 .idea
+.env
