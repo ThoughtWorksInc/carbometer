@@ -3,6 +3,7 @@ class Post < ActiveRecord::Base
   attr_accessible :title,
                   :path
   has_many        :statistics, dependent: :destroy
+  belongs_to      :author, foreign_key: :user_id
 
   def cumulative_visit_count
     statistics.sum(:visit_count)
