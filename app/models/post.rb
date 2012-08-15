@@ -1,7 +1,8 @@
 class Post < ActiveRecord::Base
 
   attr_accessible :title,
-                  :path
+                  :path,
+                  :published_at
   has_many        :statistics, dependent: :destroy
   belongs_to      :author, foreign_key: :user_id
 

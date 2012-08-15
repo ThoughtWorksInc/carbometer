@@ -11,12 +11,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120815010744) do
+ActiveRecord::Schema.define(:version => 20120815172435) do
 
   create_table "posts", :force => true do |t|
-    t.string  "title",                   :null => false
-    t.string  "path",    :limit => 1024, :null => false
+    t.string  "title",                        :null => false
+    t.string  "path",         :limit => 1024, :null => false
     t.integer "user_id"
+    t.time    "published_at"
   end
 
   add_index "posts", ["path"], :name => "index_posts_on_path"
