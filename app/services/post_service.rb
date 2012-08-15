@@ -2,7 +2,7 @@ class PostService
 
   def self.reset_posts
     Post.delete_all
-    post_analytics = PostAnalytics.find_all
+    post_analytics = Provider::PostAnalytics.find_all
     import_post_statistics post_analytics
   end
 

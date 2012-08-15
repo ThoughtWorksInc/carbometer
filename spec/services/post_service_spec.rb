@@ -22,7 +22,7 @@ describe PostService do
 
   describe '::import_post_statistics' do
     before do
-      source_one = PostAnalytics.new({
+      source_one = Provider::PostAnalytics.new({
         page_title: 'title',
         page_path: 'path',
         visits: 1,

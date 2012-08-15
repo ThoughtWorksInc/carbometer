@@ -1,4 +1,4 @@
-class PostAnalytics
+class Provider::PostAnalytics
 
   TITLE_DELIMITER = ' |'
 
