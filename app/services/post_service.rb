@@ -38,6 +38,7 @@ class PostService
       })
       post.published_at = feed_entry.published
       post.author = author
+      post.save
     end
 
     posts
