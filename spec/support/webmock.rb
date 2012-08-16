@@ -5,6 +5,10 @@ def stub_requests_for(requests_for)
 end
 
 def stub_requests_for_google
+  Google::APIClient::PKCS12.stub(:load_key) do |keyfile, passphrase|
+    OpenSSL::PKey::RSA.new 1024
+  end
+
   stub_request(:post, "https://accounts.google.com/o/oauth2/token").
     to_return(status: 200,
               body: fixture_for('oauth.json'))
