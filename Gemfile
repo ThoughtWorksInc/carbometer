@@ -17,6 +17,8 @@ end
 
 group :development, :test do
   gem 'heroku'
+  gem 'taps'
+  gem 'sqlite3'
   gem 'rspec-rails'
   gem 'jasmine-headless-webkit'
 end
