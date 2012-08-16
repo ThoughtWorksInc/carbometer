@@ -5,6 +5,8 @@ namespace :posts do
     time_elapsed = Benchmark.realtime do
       count = PostService.reset_posts
       p "Imported #{count} post statistics."
+      post_count = PostService.import_posts.length
+      p "Imported #{post_count} posts."
     end
     p "Finished in #{time_elapsed} seconds"
   end

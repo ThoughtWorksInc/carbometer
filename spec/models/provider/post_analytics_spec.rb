@@ -1,14 +1,14 @@
 require 'spec_helper'
 
-describe PostAnalytics do
+describe Provider::PostAnalytics do
   describe '::find_all_today' do
     before do
       @start_date = Date.today
     end
 
     it 'returns page analytics for today' do
-      PostAnalytics.should_receive(:find_all_by_date_range).with(@start_date, @start_date)
-      PostAnalytics.find_all_today
+      Provider::PostAnalytics.should_receive(:find_all_by_date_range).with(@start_date, @start_date)
+      Provider::PostAnalytics.find_all_today
     end
   end
 
@@ -19,8 +19,8 @@ describe PostAnalytics do
     end
 
     it 'returns page analytics from the past year' do
-      PostAnalytics.should_receive(:find_all_by_date_range).with(@start_date, @end_date)
-      PostAnalytics.find_all
+      Provider::PostAnalytics.should_receive(:find_all_by_date_range).with(@start_date, @end_date)
+      Provider::PostAnalytics.find_all
     end
   end
 
@@ -28,7 +28,7 @@ describe PostAnalytics do
     before do
       stub_requests_for(:google)
 
-      @page_view_data = PostAnalytics.find_all_by_date_range(Date.today, Date.today)
+      @page_view_data = Provider::PostAnalytics.find_all_by_date_range(Date.today, Date.today)
     end
 
     it 'returns page analytics' do
@@ -48,7 +48,7 @@ describe PostAnalytics do
   describe '#page_title' do
     before do
       original_title = 'Using Open Source Static Libraries in Xcode 4 | The Carbon Emitter'
-      @post = PostAnalytics.new
+      @post = Provider::PostAnalytics.new
       @post.page_title = original_title
     end
 

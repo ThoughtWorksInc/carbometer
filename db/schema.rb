@@ -11,15 +11,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120809175022) do
+ActiveRecord::Schema.define(:version => 20120815172435) do
 
   create_table "posts", :force => true do |t|
-    t.string "title",                 :null => false
-    t.string "path",  :limit => 1024, :null => false
+    t.string   "title",                        :null => false
+    t.string   "path",         :limit => 1024, :null => false
+    t.integer  "user_id"
+    t.datetime "published_at"
   end
 
   add_index "posts", ["path"], :name => "index_posts_on_path"
   add_index "posts", ["title"], :name => "index_posts_on_title"
+  add_index "posts", ["user_id"], :name => "index_posts_on_user_id"
 
   create_table "statistics", :force => true do |t|
     t.integer "post_id"
@@ -30,5 +33,11 @@ ActiveRecord::Schema.define(:version => 20120809175022) do
   end
 
   add_index "statistics", ["post_id"], :name => "index_statistics_on_post_id"
+
+  create_table "users", :force => true do |t|
+    t.string "name"
+  end
+
+  add_index "users", ["name"], :name => "index_users_on_name"
 
 end
