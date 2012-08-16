@@ -24,7 +24,23 @@ class PostService
   end
 
   def self.import_posts
+    feed = Provider::PostFeed.find_all
+    posts = []
 
+    feed.entries.each do |feed_entry|
+      post = Post.find_or_create_by_title_and_path(
+        title: feed_entry.title,
+        path: URI(feed_entry.url).path
+      )
+      posts << post
+      author = User.find_or_create_by_name({
+        name: feed_entry.author
+      })
+      post.published_at = feed_entry.published
+      post.author = author
+    end
+
+    posts
   end
 
 end

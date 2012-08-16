@@ -2,7 +2,7 @@ FactoryGirl.define do
 
   factory :post do
     title 'title'
-    path  '/a/b/c'
+    path  '/a/b/c/'
 
     trait :statistics do
       statistics {
