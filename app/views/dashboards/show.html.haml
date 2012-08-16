@@ -4,5 +4,6 @@
       - @posts.each do |post|
         %li
           %h3= post.title
+          %span= "Posted on #{post.published_at.strftime('%B %e, %Y')} by #{post.author.name}"
           .statistics
             %span.visit-count= post.cumulative_visit_count

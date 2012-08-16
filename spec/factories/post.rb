@@ -3,6 +3,7 @@ FactoryGirl.define do
   factory :post do
     title 'title'
     path  '/a/b/c/'
+    published_at {Time.now}
 
     trait :statistics do
       statistics {

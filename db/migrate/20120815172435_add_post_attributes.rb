@@ -1,7 +1,7 @@
 class AddPostAttributes < ActiveRecord::Migration
 
   def change
-    add_column :posts, :published_at, :time
+    add_column :posts, :published_at, :datetime
   end
 
 end
