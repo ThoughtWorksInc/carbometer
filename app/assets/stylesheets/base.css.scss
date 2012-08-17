@@ -1,3 +1,159 @@
 body {
-  background-color: pink;
+  background-color: #EBEBEB;
+  font: 1em/1.5 'Museo Sans', sans-serif;
+  margin: auto;
+  width: 80%;
+}
+
+.widget {
+  background: #313C4B;            /* dark blue */
+  border: 1px dotted black;
+}
+
+a:link {
+  color: #A8CFE1;                 /* light blue */
+  text-decoration: dotted;
+}
+
+a:visited {
+  color: #DCDCDC;                  /* medium gray */
+}
+
+a:hover {
+  color: #FFFFFF;                  /* white */
+  text-decoration: dotted;
+}
+
+a:active {
+  color: #678BBA;                  /* medium blue */
+  text-decoration: dotted;
+}
+h1 {
+  border-bottom: 1px dotted #F5F5F5; /* white smoke */
+  color: #F5F5F5;                 /* white smoke */
+  font-size: 2.5em;
+  text-transform:uppercase;
+  margin-bottom: 0;
+  padding: 0px 10px;
+}
+
+h2 {
+  color: #678BBA;                 /* medium blue */
+  font-size: 1.65em;
+  margin-bottom: 0;
+  padding-left: 10px;
+}
+
+h3 {
+  color: #DCDCDC;                 /* medium gray */
+  font-weight: bold;
+  font-size: 1.15em;
+  padding-left: 10px;
+}
+
+p {
+  color: #DCDCDC;                 /* medium gray */
+  padding-left: 10px;
+  width: 75%;
+}
+
+button {
+  background:  #FF4500;           /* red-orange (C5 logo color)  */
+  color: white;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  }
+
+/* this styling is specific to parts/base.html */
+
+.widget button {
+  margin-left: 10px;
+}
+
+.color-group {
+  width: 80%;
+  display: inline-block;
+}
+
+.color-group p {
+  color: black;
+  padding-top: 60px;
+}
+
+.color1 {
+  background: #313C4B;            /* dark blue */
+  border: solid black 1px;
+  float: left;
+  height: 100px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px ;
+  width: 100px;
+}
+
+.color2 {
+  background: #FF4500;            /* red-orange (C5 logo color)  */
+  border: solid black 1px;
+  float: left;
+  height: 100px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 100px;
+}
+
+.color3 {
+  background: #678BBA;            /* medium blue */
+  border: solid black 1px;
+  float: left;
+  height: 100px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 100px;
+}
+
+.color4 {
+  background: #AFCBE0;                 /* light blue */
+  border: solid black 1px;
+  float: left;
+  height: 100px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 100px;
+}
+
+.color5 {
+  background: #DCDCDC;            /* medium gray  */
+  border: solid black 1px;
+  float: left;
+  height: 100px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 100px;
+}
+
+.color6 {
+  background: #F5F5F5;            /* white smoke */
+  border: solid black 1px;
+  float: left;
+  height: 100px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 100px;
+}
+
+/* this styling is specific to parts/index.html */
+
+#KOP-nav {
+  color: #EBEBEB;
+  margin: 1.5em .5em;
+}
+
+#KOP-nav a {
+  display: block;
+  margin: .25em;
 }
