@@ -1,40 +1,78 @@
 body {
   background-color: #EBEBEB;
   font: 1em/1.5 'Museo Sans', sans-serif;
-  margin: auto;
-  width: 80%;
-}
-
-.widget {
-  background: #313C4B;            /* dark blue */
-  border: 1px dotted black;
 }
 
 a:link {
-  color: #A8CFE1;                 /* light blue */
+  color: #A8CFE1;                      /* light blue */
   text-decoration: dotted;
 }
 
 a:visited {
-  color: #DCDCDC;                  /* medium gray */
+  color: #DCDCDC;                      /* medium gray */
 }
 
 a:hover {
-  color: #FFFFFF;                  /* white */
+  color: #FFFFFF;                      /* white */
   text-decoration: dotted;
 }
 
 a:active {
-  color: #678BBA;                  /* medium blue */
+  color: #678BBA;                      /* medium blue */
   text-decoration: dotted;
 }
+
 h1 {
-  border-bottom: 1px dotted #F5F5F5; /* white smoke */
-  color: #F5F5F5;                 /* white smoke */
+  color: #F5F5F5;                      /* white smoke */
   font-size: 2.5em;
   text-transform:uppercase;
   margin-bottom: 0;
   padding: 0px 10px;
+}
+
+.widget {
+  background: #313C4B;                 /* dark blue */
+  border: 1px dotted black;
+}
+
+.eighty-percent {
+  margin: auto;
+  width: 80%;
+}
+
+.five-col {                            /* post leaderboard */
+  width: 515px;
+}
+
+.three-col {                           /* challenge */
+  width: 305px;
+}
+
+.four-col {                            /* buzz box, blog traffic graph, blog post bar chart */
+  width: 410px;
+}
+
+.widget-header {
+  background: #313C4B;                 /* dark blue */
+  border-bottom: 1px dotted #F5F5F5;   /* white smoke */
+}
+
+.widget-title {
+  color: #fffff;
+  display: inline;
+  font-size: 1em;
+  margin: 5px 0;
+  text-transform: none;
+  width: auto;
+}
+
+.widget-subtitle {
+  color: #DCDCDC;
+  float: right;
+  font-size: .75em;
+  margin: 3px 0;
+  padding-right: 15px;
+  width: auto;
 }
 
 h2 {

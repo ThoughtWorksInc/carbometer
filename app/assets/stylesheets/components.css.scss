@@ -1,4 +1,6 @@
-
+.post-row {
+  border: box 3px white;
+}
 
 .avatar {
   background: white;
@@ -6,4 +8,31 @@
   height: 75px;
 }
 
+.avatar p {
+  color: #678BBA;
+  padding: 20px 5px;
+  text-transform: uppercase;
+}
 
+.post-title {
+  color: #DCDCDC;                 /* medium gray */
+  float: left;
+  font-weight: bold;
+  font-size: 1.15em;
+  padding-left: 10px;
+}
+
+.post-info {
+}
+
+.traffic-graph {
+
+}
+
+.statistics {
+
+}
+
+.counter {
+
+}
