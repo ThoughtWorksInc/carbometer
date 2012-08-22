@@ -32,7 +32,7 @@ h1 {
 
 .widget {
   background: #313C4B;                 /* dark blue */
-  border: 1px dotted black;
+  border: 1px dotted white;
 }
 
 .eighty-percent {
@@ -53,25 +53,29 @@ h1 {
 }
 
 .widget-header {
-  background: #313C4B;                 /* dark blue */
   border-bottom: 1px dotted #F5F5F5;   /* white smoke */
+  height: 35px;
+  font-size: 1em
 }
 
-.widget-title {
-  color: #fffff;
+.widget-title {                         /* white smoke */
+  color: #F5F5F5;
   display: inline;
-  font-size: 1em;
-  margin: 5px 0;
-  text-transform: none;
-  width: auto;
+  float: left;
+  font-size: 110%;
+  margin: 5px 0 0 0;
+  padding-left: 5px;
+  text-transform: capitalize;
 }
 
 .widget-subtitle {
-  color: #DCDCDC;                      /* light gray */
+  color: #AFCBE0;                      /* light gray */
+  display: inline;
   float: right;
-  font-size: .70em;
-  margin: 3px 0;
-  padding-right: 15px;
+  font-family: arial;
+  font-size: 85%;
+  margin: 10px 0 0 0;
+  padding-right: 5px;
   width: auto;
 }
 
