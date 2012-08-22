@@ -162,8 +162,9 @@ button {
   width: 100px;
 }
 
+
 .color5 {
-  background: #DCDCDC;            /* medium gray  */
+  background: #555555;            /* dark gray  */
   border: solid black 1px;
   float: left;
   height: 100px;
@@ -174,6 +175,17 @@ button {
 }
 
 .color6 {
+  background: #DCDCDC;            /* medium gray  */
+  border: solid black 1px;
+  float: left;
+  height: 100px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 100px;
+}
+
+.color7 {
   background: #F5F5F5;            /* white smoke */
   border: solid black 1px;
   float: left;
