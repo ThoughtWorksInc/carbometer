@@ -9,7 +9,7 @@ a:link {
 }
 
 a:visited {
-  color: #DCDCDC;                      /* medium gray */
+  color: #DCDCDC;                      /* light gray */
 }
 
 a:hover {
@@ -67,30 +67,30 @@ h1 {
 }
 
 .widget-subtitle {
-  color: #DCDCDC;
+  color: #DCDCDC;                      /* light gray */
   float: right;
-  font-size: .75em;
+  font-size: .70em;
   margin: 3px 0;
   padding-right: 15px;
   width: auto;
 }
 
 h2 {
-  color: #678BBA;                 /* medium blue */
+  color: #678BBA;                     /* medium blue */
   font-size: 1.65em;
   margin-bottom: 0;
   padding-left: 10px;
 }
 
 h3 {
-  color: #DCDCDC;                 /* medium gray */
+  color: #DCDCDC;                      /* light gray */
   font-weight: bold;
   font-size: 1.15em;
   padding-left: 10px;
 }
 
 p {
-  color: #DCDCDC;                 /* medium gray */
+  color: #DCDCDC;                      /* light gray */
   padding-left: 10px;
   width: 75%;
 }
@@ -175,7 +175,19 @@ button {
 }
 
 .color6 {
-  background: #DCDCDC;            /* medium gray  */
+  background: #808080;            /* gray */
+  border: solid black 1px;
+  float: left;
+  height: 100px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 100px;
+
+}
+
+.color7 {
+  background: #DCDCDC;            /* light gray  */
   border: solid black 1px;
   float: left;
   height: 100px;
@@ -185,7 +197,7 @@ button {
   width: 100px;
 }
 
-.color7 {
+.color8 {
   background: #F5F5F5;            /* white smoke */
   border: solid black 1px;
   float: left;
