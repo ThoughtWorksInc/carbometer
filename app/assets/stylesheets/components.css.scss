@@ -57,19 +57,22 @@
   line-height: 120%;
   margin: 5px 0 0 0;
   padding: 0;
+  width: auto;
 }
 
 .post-author-date {
-  color: #F5F5F5;
+  color: #DCDCDC;
   display: inline;
   float: left;
-  font-size: .65em;
+  font-size: .70em;
   margin: 0;
   padding: 0;
+  width: auto;
 }
 
 .post-author-date strong {
-  color: #F5F5F5;
+  color: #FFFFFF;
+  font-size: 1em;
 }
 
 .statistics-col {
