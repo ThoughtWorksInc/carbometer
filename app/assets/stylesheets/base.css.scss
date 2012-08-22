@@ -31,8 +31,10 @@ h1 {
 }
 
 .widget {
-  background: #313C4B;                 /* dark blue */
-  border: 1px dotted white;
+  background: #999; /* for non-css3 browsers */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000c', endColorstr='#313C4B'); /* for IE */
+  background: -webkit-linear-gradient(#000, #313C4B); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #000,  #313C4B); /* for firefox 3.6+ */
 }
 
 .eighty-percent {
@@ -53,9 +55,9 @@ h1 {
 }
 
 .widget-header {
-  border-bottom: 1px dotted #F5F5F5;   /* white smoke */
   height: 35px;
-  font-size: 1em
+  font-size: 1em;
+  border-bottom: 1px dotted white;
 }
 
 .widget-title {                         /* white smoke */
