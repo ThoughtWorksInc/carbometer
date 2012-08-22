@@ -1,9 +1,24 @@
-#dashboard-frame
-  .post-leaderboard
-    %ol.posts
-      - @posts.each do |post|
-        %li
-          %h3= post.title
-          %span= "Posted on #{post.published_at.strftime('%B %e, %Y')} by #{post.author.name}"
-          .statistics
-            %span.visit-count= post.cumulative_visit_count
+#dashboard-frame.five-col
+
+  .post-leaderboard.widget
+    .widget-header
+      %h1.widget-title Carbon Emitter Post Leaderboard
+      %p.widget-subtitle
+
+    - @posts.each do |post|
+      .post.post-row
+        .avatar-col
+          %p.post-info +
+          .avatar
+            %p avatar
+        .title-info-col
+          %h2.post-title= post.title
+          %p.post-author-date
+            Posted on 
+            %strong= post.published_at.strftime('%B %e, %Y') 
+            by 
+            %strong= post.author.name
+        .statistics-col
+          %p
+            %span.counter.visit-count= post.cumulative_visit_count
+            uniques
