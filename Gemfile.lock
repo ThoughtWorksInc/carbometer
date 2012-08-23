@@ -87,6 +87,7 @@ GEM
       multi_json (>= 1.0.0)
       signet (>= 0.4.1)
       uuidtools (>= 2.1.0)
+    gravtastic (3.2.6)
     haml (3.1.6)
     heroku (2.30.2)
       heroku-api (~> 0.3.2)
@@ -230,6 +231,7 @@ DEPENDENCIES
   factory_girl_rails
   feedzirra
   google-api-client
+  gravtastic
   haml
   heroku
   jasmine-headless-webkit
