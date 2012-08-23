@@ -44,7 +44,7 @@
   display: inline;
   float: left;
   margin: 0 10px;
-  width: 300px;
+  width: 305px;
 }
 
 .post-title {
@@ -64,7 +64,7 @@
   float: left;
   font-size: .70em;
   margin: 0;
-  padding: 0;
+  padding-left: 0;
   width: auto;
 }
 
@@ -73,20 +73,39 @@
   font-size: 1em;
 }
 
-.statistics-col {
+.statistics {
   display: inline;
   float: left;
-  font-size: .5em;
-  font-family: arial;
-  line-height: .75em;
-  margin: 0;
-  padding: 0;
-  width: 95px;
+  margin-top: 4px;
+  width: 95px
 }
 
 .counter {
-  font-size: 175%;
-  color: #FFFFFF;
+  display: inline;
+  float: left;
+}
+
+.counter p {
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  width: auto;
+}
+
+.counter-label {
+  display: inline;
+  float: right;
+  margin: 0 6px 0 0;
+  padding: 1px 0;
+}
+
+.counter-label p {
+  font-size: 65%;
+  line-height: 250%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  width: auto;
 }
 
 .traffic-graph  {
