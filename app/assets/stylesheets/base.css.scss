@@ -30,12 +30,6 @@ h1 {
   padding: 0px 10px;
 }
 
-.widget {
-  background: #999; /* for non-css3 browsers */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000c', endColorstr='#313C4B'); /* for IE */
-  background: -webkit-linear-gradient(#000, #313C4B); /* for webkit browsers */
-  background: -moz-linear-gradient(top,  #000,  #313C4B); /* for firefox 3.6+ */
-}
 
 .eighty-percent {
   margin: auto;
