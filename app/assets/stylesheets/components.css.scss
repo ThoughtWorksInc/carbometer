@@ -9,9 +9,38 @@
   background: -moz-linear-gradient(top,  #000,  #313C4B); /* for firefox 3.6+ */
 }
 
+.widget-header {
+  height: 35px;
+  font-size: 1em;
+  border-bottom: 1px dotted white;
+  height: auto;
+  overflow: hidden;
+}
+
+.widget-title {                         /* white smoke */
+  color: #F5F5F5;
+  display: inline;
+  float: left;
+  font-size: 110%;
+  margin: 5px 0 0 0;
+  padding-left: 5px;
+  text-transform: capitalize;
+}
+
+.widget-subtitle {
+  color: #AFCBE0;                      /* light gray */
+  display: inline;
+  float: left;
+  font-family: arial;
+  font-size: 80%;
+  margin: 10px 0 0 0;
+  padding-left: 5px;
+  width: auto;
+}
+
 .post-row {
   background: #313C4B;
-  border-bottom: 2px dotted black;
+  border-bottom: 1px solid black;
   height: auto;
   overflow: hidden;
   padding: 5px 0;
@@ -39,25 +68,27 @@
   display: inline;
   float: left;
   margin: 0;
-  padding-left: 3px;
+  padding: 0 0 0 3px;
   width: 19px;
  }
 
 .avatar {
-  background: #dcdcdc;
+  margin: 0;
+  padding: 0;
   display: inline;
-  float: left;
   height: 73px;
   width: 73px;
+  float: left;
+  box-shadow: 2px 2px 8px #000;
+  -moz-box0shadow: 2px 2px 8px #000;
+  -webkit-box-shadow: 2px 2px 8px #000;
 }
 
-.avatar p {             /* just used for the comp, not part of app styling */
-  color: #808080;
-  float: left;
-  font-size: .75em;
-  padding: 12px;
-  text-transform: uppercase;
-}
+/*
+  box-shadow: -2px -2px 6px #000;
+  -moz-box0shadow: -2px -2px 6px #424242;
+  -webkit-box-shadow: -2px -2px 6px #1e3144;
+*/
 
 .title-info-col {
   display: inline;
@@ -94,37 +125,23 @@
 
 .statistics {
   display: inline;
-  float: left;
-  margin-top: 4px;
+  float: right;
   width: 95px
 }
 
-.counter {
-  display: inline;
-  float: left;
-}
-
 .counter p {
-  padding: 0;
+  color: #DCDCDC;
+  font-size: 115%;
   margin: 0;
+  padding: 0;
   text-align: right;
-  width: auto;
+  width: 100%;
 }
 
-.counter-label {
-  display: inline;
-  float: right;
-  margin: 0 6px 0 0;
-  padding: 1px 0;
-}
-
-.counter-label p {
-  font-size: 65%;
-  line-height: 250%;
-  margin: 0;
-  padding: 0;
-  text-align: left;
-  width: auto;
+.counter img {
+  height: 15px;
+  padding-right: 5px;
+  width: 15px;
 }
 
 .traffic-graph  {
@@ -132,7 +149,7 @@
   border-bottom: 1px solid #DCDCDC;
   display: inline;
   float: left;
-  height: 35px;
+  height: 25px;
   margin-top: 10px;
   width: 300px;
 }
@@ -140,7 +157,7 @@
 .traffic-graph p {     /* just used for the comp, not part of app styling */
   color: #808080;
   font-size: .75em;
-  margin-left: 10px;
+  margin: 0 0 0 10px;
   text-transform: uppercase;
 }
 
