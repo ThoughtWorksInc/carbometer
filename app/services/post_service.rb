@@ -1,9 +1,21 @@
 class PostService
 
   def self.reset_posts
-    Post.delete_all
-    post_analytics = Provider::PostAnalytics.find_all
-    import_post_statistics post_analytics
+    Post.destroy_all
+    self.update_posts
+  end
+
+  def self.update_posts
+    count = 0
+
+    last_run_date = Statistic.maximum(:end_date) || Date.today - 30.days
+    ((last_run_date+1)..(Date.today-1)).each do |date|
+      sleep 30
+      post_analytics = Provider::PostAnalytics.find_all_by_date_range date, date
+      count += import_post_statistics post_analytics
+    end
+
+    count
   end
 
   def self.import_post_statistics(all_post_analytics)

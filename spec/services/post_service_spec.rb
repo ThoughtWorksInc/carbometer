@@ -4,6 +4,7 @@ describe PostService do
 
   describe '::reset_posts' do
     before do
+      PostService.stub!(:sleep)
       stub_requests_for(:google)
       @existing_post = FactoryGirl.create :post, :statistics
       PostService.reset_posts
@@ -17,6 +18,22 @@ describe PostService do
 
     it 'creates new posts from analytics data' do
       expect(@new_post).to_not be_nil
+    end
+  end
+
+  describe '::update_posts' do
+    before do
+      PostService.stub!(:sleep)
+      stub_requests_for(:google)
+      @existing_post = FactoryGirl.create :post
+      @existing_statistic = FactoryGirl.create :statistic, :post => @existing_post, :start_date => Date.today - 5.days, :end_date => Date.today - 5.days
+
+      Provider::PostAnalytics.should_receive(:find_all_by_date_range).exactly(4).times.and_return([])
+      PostService.update_posts
+    end
+
+    it 'does not delete existing posts' do
+      Post.find_by_id(@existing_post.id).should_not be_nil
     end
   end
 
