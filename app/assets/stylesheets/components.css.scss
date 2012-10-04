@@ -1,5 +1,36 @@
+#dashboard-frame {
+  overflow: hidden;
+  width: 100%;
+}
+
+#blog-visibility {
+  float: left;
+  margin: 0 .8%;
+}
+
+#buzz-box {
+  height: 425px;
+}
+
+#blog-traffic-graph {
+  height: 215px;
+}
+
+#post-leaderboard {
+  margin-right: 1.069518717%;
+}
+
+#blog-post-bar-chart {
+  height: 214px;
+}
+
 .widget {
   background: #313C4B;
+  float: left;
+}
+
+#challenge-leaderboard {
+  height: 854px;
 }
 
 .widget-gradient {

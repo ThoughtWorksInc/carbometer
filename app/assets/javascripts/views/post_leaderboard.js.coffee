@@ -1,5 +1,5 @@
 class Carbometer.View.PostLeaderboard extends Backbone.View
-  el: '.post-leaderboard'
+  el: '#post-leaderboard'
   postRows: null
 
   initialize: ->

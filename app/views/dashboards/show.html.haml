@@ -6,19 +6,38 @@
       %h1.widget-title Carbon Emitter Post Leaderboard
       %p.widget-subtitle
 
-    - @posts.each do |post|
-      .post-row
-        .avatar-col
-          %p.post-info +
-          .avatar
-        .title-info-col
-          %h2.post-title= post.title
-          %p.post-author-date
-            Posted on 
-            %strong= "#{post.published_at ? post.published_at.strftime('%B %e, %Y') : 'unknown'}" 
-            by 
-            %strong.post-author-name= "#{post.author ? post.author.name : 'unknown'}"
-        .statistics-col
-          %p
-            %span.counter.visit-count= post.cumulative_visit_count
-            uniques
+#blog-visibility.nine-col
+
+    #post-leaderboard.widget.five-col
+      .widget-header
+        %h1.widget-title Carbon Emitter Post Leaderboard
+        %p.widget-subtitle
+
+      - @posts.each do |post|
+        .post-row
+          .avatar-col
+            %p.post-info +
+            .avatar
+          .title-info-col
+            %h2.post-title= post.title
+            %p.post-author-date
+              Posted on 
+              %strong= "#{post.published_at ? post.published_at.strftime('%B %e, %Y') : 'unknown'}" 
+              by 
+              %strong.post-author-name= "#{post.author ? post.author.name : 'unknown'}"
+          .statistics-col
+            %p
+              %span.counter.visit-count= post.cumulative_visit_count
+              uniques
+
+    #buzz-box.widget.four-col
+      .widget-header
+        %h1.widget-title Buzz Box
+
+    #blog-traffic-graph.widget.four-col
+      .widget-header
+        %h1.widget-title Blog Traffic Graph
+
+    #blog-post-bar-chart.widget.four-col
+      .widget-header
+        %h1.widget-title Blog Post Bar Chart
