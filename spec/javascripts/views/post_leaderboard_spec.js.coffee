@@ -1,7 +1,7 @@
 describe 'Carbometer.View.PostLeaderboard', ->
   beforeEach ->
     setFixtures "
-      <div class='post-leaderboard'>
+      <div id='post-leaderboard'>
         <div class='post-row'></div>
       </div>
     "

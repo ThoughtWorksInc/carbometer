@@ -1,7 +1,7 @@
 describe 'Carbometer.View.DashboardFrame', ->
   beforeEach ->
     setFixtures("
-      <div class='post-leaderboard'></div>
+      <div id='post-leaderboard'></div>
     ")
     @frame = new Carbometer.View.DashboardFrame
 
