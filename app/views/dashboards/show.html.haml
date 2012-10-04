@@ -15,9 +15,9 @@
           %h2.post-title= post.title
           %p.post-author-date
             Posted on 
-            %strong= post.published_at.strftime('%B %e, %Y') 
+            %strong= "#{post.published_at ? post.published_at.strftime('%B %e, %Y') : 'unknown'}" 
             by 
-            %strong.post-author-name= post.author.name
+            %strong.post-author-name= "#{post.author ? post.author.name : 'unknown'}"
         .statistics-col
           %p
             %span.counter.visit-count= post.cumulative_visit_count
