@@ -57,6 +57,7 @@ GEM
     coffee-script-source (1.3.3)
     crack (0.3.1)
     curb (0.8.1)
+    database_cleaner (0.9.1)
     diff-lcs (1.1.3)
     erubis (2.7.0)
     excon (0.16.7)
@@ -228,6 +229,7 @@ DEPENDENCIES
   capybara
   capybara-webkit
   coffee-rails (~> 3.2.1)
+  database_cleaner
   factory_girl_rails
   feedzirra
   google-api-client
