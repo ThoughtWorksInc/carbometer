@@ -13,8 +13,8 @@ describe Post do
       expect(@popular_posts.first).to eql(@popular_post)
     end
 
-    it 'returns at most 10 posts' do
-      expect(@popular_posts.length).to equal(10)
+    it 'returns at most 8 posts' do
+      expect(@popular_posts.length).to equal(8)
     end
 
     it 'sorts by popularity' do
@@ -49,13 +49,13 @@ describe Post do
       end
     end
 
-    context 'there are more than 10 loans with views in the default range' do
+    context 'there are more than 8 loans with views in the default range' do
       before do
-        FactoryGirl.create_list :post, 12, :statistics
+        FactoryGirl.create_list :post, 10, :statistics
       end
 
-      it 'returns only 10 loans' do
-        expect(Post.in_default_date_range.length).to equal(10)
+      it 'returns only 8 loans' do
+        expect(Post.in_default_date_range.length).to equal(8)
       end
     end
   end
