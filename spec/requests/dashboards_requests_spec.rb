@@ -1,11 +1,10 @@
 require 'spec_helper'
 
 feature 'View a list of posts that are popular' do
-
   background 'User visits the Dashboard page' do
     @title = 'Popular Post'
     @author = FactoryGirl.create :user
-    FactoryGirl.create_list :post, 10, :statistics, title: @title, author: @author
+    @posts = FactoryGirl.create_list :post, 10, :statistics, title: @title, author: @author
     visit '/dashboard'
   end
 
@@ -20,4 +19,9 @@ feature 'View a list of posts that are popular' do
     expect(page.body).to have_content(Time.now.strftime('%Y'))
   end
 
+  scenario 'User sees tweet count for posts' do
+    tweet_counts = all('.tweets')
+    expect(tweet_counts).to have(@posts.count).tweet_counts
+    expect(tweet_counts.first).to have_content(0)
+  end
 end

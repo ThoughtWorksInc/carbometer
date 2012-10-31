@@ -12,7 +12,7 @@
         %p.widget-subtitle last #{Post::DEFAULT_DAY_RANGE} days, starting #{(Date.today - Post::DEFAULT_DAY_RANGE.days).strftime('%m/%d/%y')}
 
       - @posts.each do |post|
-        .post-row
+        .post-row{'data-permalink' => "http://blog.carbonfive.com#{post.path.strip}"}
           .avatar-col
             %p.post-info +
             .avatar
@@ -24,9 +24,13 @@
               by 
               %strong.post-author-name= "#{post.author ? post.author.name : 'unknown'}"
           .statistics-col
+          .counter
             %p
-              %span.counter.visit-count= post.visit_sum
+              %span.visit-count= post.visit_sum
               uniques
+            %p
+              %span.tweets
+                0 tweets
 
     #buzz-box.widget.four-col
       .widget-header
