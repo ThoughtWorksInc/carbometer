@@ -10,10 +10,10 @@ stylesheets:
   - stylesheets/**/*.css
 
 helpers:
+  - '**/support/*.js'
   - helpers/**/*.js
 
 spec_files:
-  - '**/support/*.js'
   - '**/*[sS]pec.js.coffee'
 
 src_dir:

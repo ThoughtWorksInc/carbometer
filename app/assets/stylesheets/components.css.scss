@@ -160,19 +160,30 @@
   width: 95px
 }
 
-.counter p {
-  color: #DCDCDC;
-  font-size: 115%;
-  margin: 0;
-  padding: 0;
-  text-align: right;
-  width: 100%;
-}
+.counter {
+  list-style: none;
+  padding: 0 5px;
 
-.counter img {
-  height: 15px;
-  padding-right: 5px;
-  width: 15px;
+  li {
+    color: #DCDCDC;
+    font-size: 115%;
+    padding: 0 20px 0 0;
+    text-align: right;
+    background-repeat: no-repeat;
+    background-position: right center;
+
+    &.tweets {
+      background-image: url(/assets/tweets-icon.png);
+    }
+
+    &.comments {
+      background-image: url(/assets/comments-icon.png);
+    }
+
+    &.views {
+      background-image: url(/assets/views-icon.png);
+    }
+  }
 }
 
 .traffic-graph  {
