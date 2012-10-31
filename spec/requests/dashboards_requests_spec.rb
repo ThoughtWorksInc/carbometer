@@ -4,7 +4,7 @@ feature 'View a list of posts that are popular' do
   background 'User visits the Dashboard page' do
     @title = 'Popular Post'
     @author = FactoryGirl.create :user
-    @posts = FactoryGirl.create_list :post, 10, :statistics, title: @title, author: @author
+    @posts = FactoryGirl.create_list :post, 8, :statistics, title: @title, author: @author
     visit '/dashboard'
   end
 

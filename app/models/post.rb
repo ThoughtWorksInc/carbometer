@@ -17,7 +17,7 @@ class Post < ActiveRecord::Base
               joins: :statistics,
               select: 'posts.*, SUM(statistics.visit_count) as visit_sum',
               group: 'posts.id, posts.title, posts.path, posts.user_id, posts.published_at',
-              limit: 10,
+              limit: 8,
               order: 'visit_sum desc')
   end
 
@@ -27,6 +27,6 @@ class Post < ActiveRecord::Base
         .select('posts.*, SUM(statistics.visit_count) as visit_sum')
         .group('posts.id, posts.title, posts.path, posts.user_id, posts.published_at')
         .order('visit_sum DESC')
-        .limit(10)
+        .limit(8)
   end
 end
