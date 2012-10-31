@@ -24,13 +24,9 @@
               by 
               %strong.post-author-name= "#{post.author ? post.author.name : 'unknown'}"
           .statistics-col
-          .counter
-            %p
-              %span.visit-count= post.visit_sum
-              uniques
-            %p
-              %span.tweets
-                0 tweets
+            %ul.counter
+              %li.views= post.visit_sum
+              %li.tweets 0
 
     #buzz-box.widget.four-col
       .widget-header

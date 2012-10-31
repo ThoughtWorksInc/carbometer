@@ -10,7 +10,7 @@ feature 'View a list of posts that are popular' do
 
   scenario 'User sees listing of popular posts' do
     expect(page.body).to have_content(@title)
-    expect(page.body).to have_css('.visit-count')
+    expect(page.body).to have_css('.views')
   end
 
   scenario 'User sees the author and published date of posts' do

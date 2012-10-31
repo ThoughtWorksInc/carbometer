@@ -3,7 +3,7 @@ describe 'Carbometer.View.PostRow', ->
     @pageUrl = 'http://cnn.com'
     setFixtures """
       <div class='post-row' data-permalink=#{@pageUrl}>
-        <p class='tweets'></p>
+        <li class='tweets'></li>
       </div>
     """
 
@@ -38,4 +38,4 @@ describe 'Carbometer.View.PostRow', ->
       @view.tweetCount.set count: @count
 
     it 'updates the tweet count', ->
-      expect(@view.$('.tweets')).toHaveText("#{@count} tweets")
+      expect(@view.$('.tweets')).toHaveText("#{@count}")

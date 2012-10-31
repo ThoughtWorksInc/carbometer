@@ -23,4 +23,4 @@ class Carbometer.View.PostRow extends Backbone.View
     Gravtastic email
 
   renderTweetCount: ->
-    @$('.tweets').text("#{@tweetCount.get('count')} tweets")
+    @$('.tweets').text("#{@tweetCount.get('count')}")
