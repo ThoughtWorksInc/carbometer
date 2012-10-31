@@ -34,7 +34,6 @@ GEM
       addressable (>= 2.3.1)
       extlib (>= 0.9.15)
       multi_json (>= 1.0.0)
-    blankslate (2.1.2.4)
     builder (3.0.0)
     capybara (1.1.2)
       mime-types (>= 1.16)
@@ -99,7 +98,7 @@ GEM
     heroku-api (0.3.5)
       excon (~> 0.16.1)
     hike (1.2.1)
-    i18n (0.6.0)
+    i18n (0.6.1)
     jasmine-core (1.1.0)
     jasmine-headless-webkit (0.8.4)
       coffee-script
@@ -107,9 +106,8 @@ GEM
       multi_json
       rainbow
       sprockets (~> 2)
-    jbuilder (0.4.0)
+    jbuilder (0.8.2)
       activesupport (>= 3.0.0)
-      blankslate (>= 2.1.2.4)
     journey (1.0.4)
     jquery-rails (2.0.2)
       railties (>= 3.2.0, < 5.0)
