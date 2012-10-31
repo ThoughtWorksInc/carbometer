@@ -1,5 +1,7 @@
 class Post < ActiveRecord::Base
 
+  DEFAULT_DAY_RANGE = 30
+
   attr_accessible :title,
                   :path,
                   :published_at
@@ -19,4 +21,12 @@ class Post < ActiveRecord::Base
               order: 'visit_sum desc')
   end
 
+  def self.in_default_date_range
+    Post.joins(:statistics)
+        .where('statistics.start_date >= ?', Date.today - DEFAULT_DAY_RANGE.days)
+        .select('posts.*, SUM(statistics.visit_count) as visit_sum')
+        .group('posts.id, posts.title, posts.path, posts.user_id, posts.published_at')
+        .order('visit_sum DESC')
+        .limit(10)
+  end
 end

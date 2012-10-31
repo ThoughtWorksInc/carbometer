@@ -9,7 +9,7 @@
     #post-leaderboard.widget.five-col
       .widget-header
         %h1.widget-title Carbon Emitter Post Leaderboard
-        %p.widget-subtitle
+        %p.widget-subtitle last #{Post::DEFAULT_DAY_RANGE} days, starting #{(Date.today - Post::DEFAULT_DAY_RANGE.days).strftime('%m/%d/%y')}
 
       - @posts.each do |post|
         .post-row
@@ -25,7 +25,7 @@
               %strong.post-author-name= "#{post.author ? post.author.name : 'unknown'}"
           .statistics-col
             %p
-              %span.counter.visit-count= post.cumulative_visit_count
+              %span.counter.visit-count= post.visit_sum
               uniques
 
     #buzz-box.widget.four-col
