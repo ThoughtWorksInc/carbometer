@@ -1,14 +1,16 @@
 class Carbometer.View.PostRow extends Backbone.View
+  tagName: 'div'
   className: 'post-row'
 
-  initialize: ->
-    pageUrl = @$el.data('permalink')
+  initialize: (attributes) ->
+    pageUrl = "http://blog.carbonfive.com/"+attributes['path']
     @tweetCount = new Carbometer.Model.TweetCount pageUrl: pageUrl
     @tweetCount.on 'change:count', @renderTweetCount, @
 
   render: ->
     @authorName = @$('.post-author-name').text()
     @avatar = @$('.avatar')
+    console.log(@el)
     @renderAvatar()
 
   renderAvatar: ->

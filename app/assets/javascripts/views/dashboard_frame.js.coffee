@@ -5,6 +5,7 @@ class Carbometer.View.DashboardFrame extends Backbone.View
 
   render: ->
     @postLeaderboard = new Carbometer.View.PostLeaderboard
+      collection: Carbometer.Posts
     @postLeaderboard.render()
 
     @

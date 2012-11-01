@@ -6,7 +6,13 @@ class Carbometer.View.PostLeaderboard extends Backbone.View
     @postRows = []
 
   render: ->
-    @$('.post-row').each (index, post) =>
-      postRow = new Carbometer.View.PostRow el: post
-      postRow.render()
-      @postRows.push postRow
+    @collection.fetch
+      error: (collection, response) =>
+        console.log("error")
+      success: (collection, response) =>
+        _.each response, (post, index) =>
+          postRow = new Carbometer.View.PostRow
+            id: "post_#{index+1}"
+          postRow.render()
+          @postRows.push postRow
+

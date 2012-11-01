@@ -7,6 +7,7 @@ window.Carbometer =
 
   initialize: ->
     dashboardRouter = new Carbometer.Router.Dashboard
+    Carbometer.Posts = new Carbometer.Collection.Posts
 
     Backbone.history.start
       pushState: true
